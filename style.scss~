@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('./PT_Sans/ptsans-regular-webfont.woff2') format('woff2'),
+         url('./PT_Sans/ptsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+	font-family: pt_sansregular, ubuntu, sans;
+}
+ 
+body {
+	overflow-x: hidden;
+}
+
+.header-content {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 85%;
+	background-color: rgba(255,255,255,1);
+}
+
+.card {
+	transition: 250ms ease;
+	&:hover {
+		transform: scale(1.02);
+	}
+}
+

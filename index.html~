@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home - deniandriancode.github.io</title>
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+	<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-light bg-white shadow-sm">
+		<div class="container-fluid container-md">
+			<a class="navbar-brand" href=""><h3>LOGO</h3></a>
+		</div>
+	</nav>
+	<section id="hero-image" class="position-relative">
+		<div class="container-fluid px-0 mx-0">
+			<img class="img-fluid text-center" src="./assets/header-image-edit-final.jpg" alt="header image">
+		</div>
+
+		<div class="container position-absolute header-content rounded shadow">
+			<div class="row">
+				<div class="col-12 col-md-6 mx-auto text-center my-5">
+					<h1>Where is this?</h1>
+					<p>This is <a href="https://github.com/deniandriancode" target="_blank">my</a> personal website, here I post my static webpage projects. Take your time and look around the website, maybe there is something that will catch your eyes.</p>
+				</div>
+			</div>
+
+			<div class="row px-3 mt-3 mb-5">
+				<div class="col-sm-12 col-md-4">
+					<div class="card">
+						<img src="./assets/holder1.jpeg" class="card-img-top" alt="holder1">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="card">
+						<img src="./assets/holder1.jpeg" class="card-img-top" alt="holder1">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="card">
+						<img src="./assets/holder1.jpeg" class="card-img-top" alt="holder1">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row my-5">
+				<div class="col text-center">
+					<a href="https://unsplash.com/photos/-WW8jBak7bo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">image from unsplash</a>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<footer>
+		<div class="container-fluid text-white text-center px-0">
+			<div class="footer-up bg-dark">
+				<div class="row">
+					<div class="col col-md-8 mx-auto border-bottom">
+						<div>
+							<a href="" class="display-4">LOGO</a>
+						</div>
+						 <div>
+							 <a href="#"><i class="bi-facebook"></i></a>
+							 <a href="#"><i class="bi-facebook"></i></a>
+							 <a href="#"><i class="bi-facebook"></i></a>
+							 <a href="#"><i class="bi-facebook"></i></a>
+						 </div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p>&copy; Copyright 2002 | Made with <i class="bi-heart-fill"></i> by Deni Andrian</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-down">
+				<div class="row"></div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

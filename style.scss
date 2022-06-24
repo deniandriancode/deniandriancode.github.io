@@ -1,0 +1,62 @@
+$headerHeight: 350px;
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('./PT_Sans/ptsans-regular-webfont.woff2') format('woff2'),
+         url('./PT_Sans/ptsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    font-family: pt_sansregular, ubuntu, sans;
+}
+
+.hover-underline {
+	position: relative;
+
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		width: 0%;
+		transform: translateX(-50%);
+		background-color: #777777;
+		height: 2px;
+		border-radius: 99px;
+		transition: 250ms ease;
+	}
+
+	&:hover::after {
+		width: 100%;
+	}
+}
+
+.btn-close {
+	transition: 250ms ease;
+	&:focus {
+		outline: 0;
+		box-shadow: 0 0 0 .25rem rgba(100,100,100,.25);
+	}
+}
+
+.text-brown {
+	color: #b77e46;
+	transition: 250ms ease;
+
+	&:hover, &:focus {
+		 color: #8a5f34;
+	 }
+}
+
+.text-mono {
+	font-family: monospace;
+}
+
+@media screen and (max-width: 576px) {
+	html {
+		font-size: 12px;
+	}
+}
