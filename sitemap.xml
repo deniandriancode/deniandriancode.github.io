@@ -2,19 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/blog/demo-post/</loc>
-    <lastmod>2024-02-17T18:05:44+07:00</lastmod>
-  </url><url>
-    <loc>https://example.org/about/</loc>
-    <lastmod>2024-02-17T18:04:54+07:00</lastmod>
-  </url><url>
-    <loc>https://example.org/blog/</loc>
-    <lastmod>2024-02-17T18:04:24+07:00</lastmod>
+    <loc>https://example.org/posts/documenting-programming-journey-with-web-development/</loc>
+    <lastmod>2024-06-05T13:01:22+07:00</lastmod>
   </url><url>
     <loc>https://example.org/</loc>
-    <lastmod>2024-02-17T18:02:38+07:00</lastmod>
+    <lastmod>2024-06-05T13:01:22+07:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/</loc>
+    <lastmod>2024-06-05T13:01:22+07:00</lastmod>
   </url><url>
     <loc>https://example.org/categories/</loc>
+  </url><url>
+    <loc>https://example.org/search/</loc>
   </url><url>
     <loc>https://example.org/tags/</loc>
   </url>
