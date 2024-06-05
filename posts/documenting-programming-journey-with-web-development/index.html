@@ -236,47 +236,47 @@ JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y
 <p>Amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis, purus sit. Aliquet risus feugiat in ante metus, dictum at tempor commodo, ullamcorper a lacus vestibulum sed! Ullamcorper malesuada proin libero nunc, consequat interdum varius sit amet, mattis vulputate enim nulla aliquet porttitor. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales.</p>
 <p>Sit amet volutpat consequat, mauris nunc congue nisi, vitae suscipit tellus mauris a diam maecenas sed enim ut! Diam sollicitudin tempor id eu nisl nunc mi ipsum, faucibus vitae aliquet nec, ullamcorper sit amet risus nullam eget felis eget nunc lobortis! Sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum, faucibus.</p>
 <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum, faucibus vitae aliquet nec, ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci, a scelerisque purus semper eget duis at tellus at. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis?</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;Implementation of Linked List data structure in Python.
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">The following implement a singly linked list, to find other types
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">of linked list, see another files in this directory.
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#98c379">&#34;&#34;&#34;Implementation of Linked List data structure in Python.
+</span></span></span><span style="display:flex;"><span><span style="color:#98c379">
+</span></span></span><span style="display:flex;"><span><span style="color:#98c379">The following implement a singly linked list, to find other types
+</span></span></span><span style="display:flex;"><span><span style="color:#98c379">of linked list, see another files in this directory.
+</span></span></span><span style="display:flex;"><span><span style="color:#98c379">&#34;&#34;&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Node</span>:
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, data):
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>data <span style="color:#f92672">=</span> data
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>next <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span><span style="color:#c678dd">class</span> <span style="color:#e5c07b">Node</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">def</span> <span style="color:#56b6c2;font-weight:bold">__init__</span>(<span style="color:#e06c75">self</span>, <span style="color:#e06c75">data</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">self</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">data</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">data</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">self</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">next</span> <span style="color:#56b6c2">=</span> <span style="color:#e5c07b">None</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __repr__(self):
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;[data: </span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>data<span style="color:#e6db74">}</span><span style="color:#e6db74">, next: </span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>next<span style="color:#e6db74">}</span><span style="color:#e6db74">]&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">def</span> <span style="color:#56b6c2;font-weight:bold">__repr__</span>(<span style="color:#e06c75">self</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">return</span> <span style="color:#98c379">f</span><span style="color:#98c379">&#34;[data: </span><span style="color:#98c379">{</span><span style="color:#e06c75">self</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">data</span><span style="color:#98c379">}</span><span style="color:#98c379">, next: </span><span style="color:#98c379">{</span><span style="color:#e06c75">self</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">next</span><span style="color:#98c379">}</span><span style="color:#98c379">]&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LinkedList</span>:
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self):
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>head <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span><span style="color:#c678dd">class</span> <span style="color:#e5c07b">LinkedList</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">def</span> <span style="color:#56b6c2;font-weight:bold">__init__</span>(<span style="color:#e06c75">self</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">self</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">head</span> <span style="color:#56b6c2">=</span> <span style="color:#e5c07b">None</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __repr__(self):
-</span></span><span style="display:flex;"><span>        s <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>        tmp_head <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>head
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> tmp_head <span style="color:#f92672">!=</span> <span style="color:#66d9ef">None</span>:
-</span></span><span style="display:flex;"><span>            s <span style="color:#f92672">+=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>tmp_head<span style="color:#f92672">.</span>data<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> tmp_head<span style="color:#f92672">.</span>next <span style="color:#f92672">!=</span> <span style="color:#66d9ef">None</span>:
-</span></span><span style="display:flex;"><span>                s <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; -&gt; &#34;</span>
-</span></span><span style="display:flex;"><span>            tmp_head <span style="color:#f92672">=</span> tmp_head<span style="color:#f92672">.</span>next
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">def</span> <span style="color:#56b6c2;font-weight:bold">__repr__</span>(<span style="color:#e06c75">self</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">s</span> <span style="color:#56b6c2">=</span> <span style="color:#98c379">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">tmp_head</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">self</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">head</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">while</span> <span style="color:#e06c75">tmp_head</span> <span style="color:#56b6c2">!=</span> <span style="color:#e5c07b">None</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#e06c75">s</span> <span style="color:#56b6c2">+=</span> <span style="color:#98c379">f</span><span style="color:#98c379">&#34;</span><span style="color:#98c379">{</span><span style="color:#e06c75">tmp_head</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">data</span><span style="color:#98c379">}</span><span style="color:#98c379">&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#c678dd">if</span> <span style="color:#e06c75">tmp_head</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">next</span> <span style="color:#56b6c2">!=</span> <span style="color:#e5c07b">None</span>:
+</span></span><span style="display:flex;"><span>                <span style="color:#e06c75">s</span> <span style="color:#56b6c2">+=</span> <span style="color:#98c379">&#34; -&gt; &#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e06c75">tmp_head</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">tmp_head</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">next</span>
 </span></span><span style="display:flex;"><span>                
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> s
+</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">return</span> <span style="color:#e06c75">s</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
-</span></span><span style="display:flex;"><span>    n1 <span style="color:#f92672">=</span> Node(<span style="color:#ae81ff">4</span>)
-</span></span><span style="display:flex;"><span>    n2 <span style="color:#f92672">=</span> Node(<span style="color:#ae81ff">6</span>)
-</span></span><span style="display:flex;"><span>    n3 <span style="color:#f92672">=</span> Node(<span style="color:#ae81ff">7</span>)
+</span></span><span style="display:flex;"><span><span style="color:#c678dd">if</span> <span style="color:#e06c75">__name__</span> <span style="color:#56b6c2">==</span> <span style="color:#98c379">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">n1</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">Node</span>(<span style="color:#d19a66">4</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">n2</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">Node</span>(<span style="color:#d19a66">6</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">n3</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">Node</span>(<span style="color:#d19a66">7</span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    n1<span style="color:#f92672">.</span>next <span style="color:#f92672">=</span> n2
-</span></span><span style="display:flex;"><span>    n2<span style="color:#f92672">.</span>next <span style="color:#f92672">=</span> n3
+</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">n1</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">next</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">n2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">n2</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">next</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">n3</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    l <span style="color:#f92672">=</span> LinkedList()
-</span></span><span style="display:flex;"><span>    l<span style="color:#f92672">.</span>head <span style="color:#f92672">=</span> n1
-</span></span><span style="display:flex;"><span>    print(l)
+</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">l</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">LinkedList</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">l</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">head</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">n1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e5c07b">print</span>(<span style="color:#e06c75">l</span>)
 </span></span></code></pre></div><p>Gravida neque convallis a cras semper auctor. Amet facilisis magna etiam tempor, orci eu lobortis elementum, nibh tellus molestie nunc, non blandit massa enim nec? Arcu dui vivamus arcu felis, bibendum ut tristique et, egestas quis ipsum suspendisse ultrices! Pretium aenean pharetra, magna ac. Consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla?</p>
 <p>Malesuada proin libero nunc, consequat interdum varius sit amet, mattis vulputate enim nulla aliquet porttitor lacus, luctus! Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate! Amet nulla facilisi morbi tempus iaculis urna, id volutpat. Massa, eget egestas purus viverra accumsan in nisl nisi, scelerisque eu ultrices vitae, auctor eu augue ut lectus arcu, bibendum! Duis at consectetur lorem donec massa sapien, faucibus et molestie ac.</p>
 <p>Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Lorem sed risus ultricies tristique nulla aliquet enim tortor, at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci, a! Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at? Sit amet, porttitor eget dolor morbi non arcu risus, quis varius quam quisque!</p>
