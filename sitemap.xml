@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/</loc>
+    <lastmod>2024-06-06T20:23:33+07:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-06-06T20:23:33+07:00</lastmod>
+  </url><url>
+    <loc>/tags/devlog/</loc>
+    <lastmod>2024-06-05T13:01:22+07:00</lastmod>
+  </url><url>
     <loc>/posts/documenting-programming-journey-with-web-development/</loc>
     <lastmod>2024-06-05T13:01:22+07:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-06-05T13:01:22+07:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
+    <loc>/tags/programming/</loc>
     <lastmod>2024-06-05T13:01:22+07:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
