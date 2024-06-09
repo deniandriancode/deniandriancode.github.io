@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Writing on faultint</title>
+    <link>//localhost:1313/tags/writing/</link>
+    <description>Recent content in Writing on faultint</description>
+    <generator>Hugo -- 0.126.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jun 2024 20:23:33 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keep Writing Code Until it Becomes Meaningless</title>
+      <link>//localhost:1313/posts/start-coding-small/</link>
+      <pubDate>Thu, 06 Jun 2024 20:23:33 +0700</pubDate>
+      <guid>//localhost:1313/posts/start-coding-small/</guid>
+      <description>Meaningless Things and Why It&amp;rsquo;s Actually Good The More Often You Do Something, The Less Exciting It Becomes Excitement is Burden for Your Brain Starting Small Keep Things Inline Afterword </description>
+    </item>
+  </channel>
+</rss>

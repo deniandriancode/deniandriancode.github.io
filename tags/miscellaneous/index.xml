@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on faultint</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on faultint</description>
+    <title>Miscellaneous on faultint</title>
+    <link>/tags/miscellaneous/</link>
+    <description>Recent content in Miscellaneous on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Jun 2024 14:05:34 +0700</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bookmark Homepage</title>
       <link>/posts/bookmark-home/</link>
@@ -15,13 +15,6 @@
       <guid>/posts/bookmark-home/</guid>
       <description>I list my favorite websites here, I want to share this list so maybe the others find this list userful. I didn&amp;rsquo;t put them on specific category since the list is still small, I might do that in the future.
 Understanding base64 in C# Applied Mathematics for Programming - MIT How to write a good paragraph Searching code with grep by MDN Common UNIX utilities How to put information together - GCFGlobal Assembly x86 tutorial by Loyola Marymount University Roby&amp;rsquo;s PC Assembly (x86) Tutorial Japanese Vocabularies - Kanshudo Linux System Programmin Introduction - Coursera 50 Dynamic Programming Problems Regular Expression Matching Discrete Mathematics by everythingcomputerscience.</description>
-    </item>
-    <item>
-      <title>Documenting Programming Journey with Web Development</title>
-      <link>/posts/documenting-programming-journey-with-web-development/</link>
-      <pubDate>Wed, 05 Jun 2024 13:01:22 +0700</pubDate>
-      <guid>/posts/documenting-programming-journey-with-web-development/</guid>
-      <description>Learning is a tiresome activity, you need to put a lot of effort and time when learning something, this is even true when learning something by yourself, like programming, since nobody is going to remind you when to study, when to review your note, when to exercise, what to study after you finished the current topic, in other word, you need to put extra effort because nobody is going to guide you whatsoever.</description>
     </item>
   </channel>
 </rss>
