@@ -6,8 +6,15 @@
     <description>Recent content on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Jun 2024 14:05:34 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2024 21:19:23 +0700</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assembly x86 Curriculum</title>
+      <link>/posts/assembly-x86-curriculum/</link>
+      <pubDate>Mon, 10 Jun 2024 21:19:23 +0700</pubDate>
+      <guid>/posts/assembly-x86-curriculum/</guid>
+      <description>Curriculum to learn Assembly x86 from GPT4o</description>
+    </item>
     <item>
       <title>Bookmarks Homepage</title>
       <link>/posts/bookmark-home/</link>
