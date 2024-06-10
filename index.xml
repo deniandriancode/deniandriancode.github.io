@@ -9,12 +9,20 @@
     <lastBuildDate>Sun, 09 Jun 2024 14:05:34 +0700</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bookmark Homepage</title>
+      <title>Bookmarks Homepage</title>
       <link>/posts/bookmark-home/</link>
       <pubDate>Sun, 09 Jun 2024 14:05:34 +0700</pubDate>
       <guid>/posts/bookmark-home/</guid>
       <description>I list my favorite websites here, I want to share this list so maybe the others find this list userful. I didn&amp;rsquo;t put them on specific category since the list is still small, I might do that in the future.
-Understanding base64 in C# Applied Mathematics for Programming - MIT How to write a good paragraph Searching code with grep by MDN Common UNIX utilities How to put information together - GCFGlobal Assembly x86 tutorial by Loyola Marymount University Roby&amp;rsquo;s PC Assembly (x86) Tutorial Japanese Vocabularies - Kanshudo Linux System Programmin Introduction - Coursera 50 Dynamic Programming Problems Regular Expression Matching Discrete Mathematics by everythingcomputerscience.</description>
+Understanding base64 in C# Applied Mathematics for Programming - MIT How to write a good paragraph Searching code with grep by MDN Common UNIX utilities How to put information together - GCFGlobal Assembly x86 tutorial by Loyola Marymount University Roby&amp;rsquo;s PC Assembly (x86) Tutorial Japanese Vocabularies - Kanshudo Linux System Programming Introduction - Coursera 50 Dynamic Programming Problems Regular Expression Matching Discrete Mathematics by everythingcomputerscience.</description>
+    </item>
+    <item>
+      <title>Keep Writing Code Until it Becomes Meaningless</title>
+      <link>/posts/start-coding-small/</link>
+      <pubDate>Thu, 06 Jun 2024 20:23:33 +0700</pubDate>
+      <guid>/posts/start-coding-small/</guid>
+      <description>If you are learning programming or computer science related stuff, chances are you will write some code. Coding and programming are two different things, in a nutshell, programming is applying some logic while coding is actually typing the applied logic into machine-readable instruction, read this awesome article from freeCodeCamp.
+You can do programming wherever you are, you don&amp;rsquo;t have to sit in front of your computer since applying some logic don&amp;rsquo;t necessarily need a computer.</description>
     </item>
     <item>
       <title>Documenting Programming Journey with Web Development</title>
