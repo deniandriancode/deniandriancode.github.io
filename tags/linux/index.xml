@@ -43,5 +43,12 @@
       <guid>/posts/system-programming-with-c-cpp-curriculum/</guid>
       <description>A curriculum to learn system programming using C/C&#43;&#43; from ChatGPT</description>
     </item>
+    <item>
+      <title>Linux Hard Link and Soft Link in a Nutshell</title>
+      <link>/posts/hard-link-soft-link-in-a-nutshell-linux/</link>
+      <pubDate>Mon, 10 Jun 2024 20:47:46 +0700</pubDate>
+      <guid>/posts/hard-link-soft-link-in-a-nutshell-linux/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

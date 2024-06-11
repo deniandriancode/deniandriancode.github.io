@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cli on faultint</title>
+    <link>/tags/cli/</link>
+    <description>Recent content in Cli on faultint</description>
+    <generator>Hugo -- 0.126.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jun 2024 20:47:46 +0700</lastBuildDate>
+    <atom:link href="/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Hard Link and Soft Link in a Nutshell</title>
+      <link>/posts/hard-link-soft-link-in-a-nutshell-linux/</link>
+      <pubDate>Mon, 10 Jun 2024 20:47:46 +0700</pubDate>
+      <guid>/posts/hard-link-soft-link-in-a-nutshell-linux/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

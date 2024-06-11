@@ -6,14 +6,14 @@
     <description>Recent content in Tag1 on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jun 2024 13:48:32 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2024 21:18:09 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Backend Web Development Curriculum</title>
-      <link>//localhost:1313/posts/backend-web-development-curriculum/</link>
-      <pubDate>Tue, 11 Jun 2024 13:48:32 +0700</pubDate>
-      <guid>//localhost:1313/posts/backend-web-development-curriculum/</guid>
-      <description>A curriculum to learn Backend Web Development from ChatGPT</description>
+      <title>Mylay</title>
+      <link>//localhost:1313/mylay/</link>
+      <pubDate>Tue, 11 Jun 2024 21:18:09 +0700</pubDate>
+      <guid>//localhost:1313/mylay/</guid>
+      <description>Description goes here</description>
     </item>
   </channel>
 </rss>
