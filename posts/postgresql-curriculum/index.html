@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>PostgreSQL Curriculum | faultint</title>
+<meta name="keywords" content="sql, postgreSQL, AI generated">
+<meta name="description" content="A curriculum to learn PostgreSQL from ChatGPT">
+<meta name="author" content="Deni Andrian Prayoga">
+<link rel="canonical" href="/posts/postgresql-curriculum/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5b0d59190c3edae41d8443118148db1b6a344d43938392164dcd117a0590b274.css" integrity="sha256-Ww1ZGQw&#43;2uQdhEMRgUjbG2o0TUOTg5IWTc0RegWQsnQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/posts/postgresql-curriculum/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  
+
+<meta property="og:title" content="PostgreSQL Curriculum" />
+<meta property="og:description" content="A curriculum to learn PostgreSQL from ChatGPT" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/postgresql-curriculum/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-06-11T13:46:17+07:00" />
+<meta property="article:modified_time" content="2024-06-11T13:46:17+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="PostgreSQL Curriculum"/>
+<meta name="twitter:description" content="A curriculum to learn PostgreSQL from ChatGPT"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "PostgreSQL Curriculum",
+      "item": "/posts/postgresql-curriculum/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "PostgreSQL Curriculum",
+  "name": "PostgreSQL Curriculum",
+  "description": "A curriculum to learn PostgreSQL from ChatGPT",
+  "keywords": [
+    "sql", "postgreSQL", "AI generated"
+  ],
+  "articleBody": "Creating a detailed and comprehensive curriculum for PostgreSQL from scratch requires structuring the course to build foundational knowledge in databases, SQL, and PostgreSQL-specific features and best practices. Here’s a comprehensive outline for a semester-long course, assuming it meets once or twice a week for about 12-15 weeks:\nWeek 1-2: Introduction to Databases and PostgreSQL Lecture Topics:\nBasics of databases: what they are, why they are used. Types of databases: relational vs. non-relational. Introduction to PostgreSQL: history, features, and use cases. Installing PostgreSQL and understanding its architecture (server, client, database cluster). Practical Sessions:\nInstalling PostgreSQL on different operating systems (Linux, Windows, macOS). Initial setup and configuration of PostgreSQL. Using the psql command-line tool for basic operations. Creating and connecting to a PostgreSQL database. Assignments:\nInstall PostgreSQL on your local machine. Create a database and practice basic commands using psql. Week 3-4: SQL Fundamentals Lecture Topics:\nIntroduction to SQL: data definition language (DDL) and data manipulation language (DML). Basic SQL commands: SELECT, INSERT, UPDATE, DELETE. Data types and constraints in PostgreSQL. Introduction to table creation and schema design. Practical Sessions:\nWriting SQL queries to retrieve and manipulate data. Creating tables with various data types and constraints. Inserting, updating, and deleting records in tables. Using the PostgreSQL documentation for reference. Assignments:\nCreate tables for a sample application (e.g., a simple blog or e-commerce system). Write SQL queries to populate and modify data in these tables. Week 5-6: Advanced SQL and Data Relationships Lecture Topics:\nAdvanced SQL queries: joins, subqueries, and common table expressions (CTEs). Understanding and designing relationships: one-to-one, one-to-many, many-to-many. Referential integrity and foreign keys. Indexes and performance optimization basics. Practical Sessions:\nWriting complex SQL queries involving multiple tables. Creating and managing foreign keys to establish relationships. Using indexes to improve query performance. Analyzing and optimizing slow queries. Assignments:\nDesign and implement a database schema for a more complex application (e.g., a school management system). Write queries to perform various operations involving multiple tables. Week 7-8: Functions, Views, and Triggers Lecture Topics:\nIntroduction to PostgreSQL functions: built-in and user-defined. Creating and using views to simplify complex queries. Triggers and their use cases: automating database tasks. Introduction to PL/pgSQL: PostgreSQL’s procedural language. Practical Sessions:\nCreating and using functions for repetitive tasks. Defining and utilizing views for reporting and abstraction. Writing and testing triggers for data integrity and automation. Basic PL/pgSQL programming for creating stored procedures. Assignments:\nCreate functions and views to simplify database operations in the previously designed schema. Implement triggers to enforce business rules or audit changes. Week 9-10: Database Administration and Security Lecture Topics:\nOverview of PostgreSQL database administration. User roles, permissions, and security best practices. Backup and recovery strategies. Monitoring and maintaining database health. Practical Sessions:\nCreating and managing users and roles in PostgreSQL. Setting up and testing database backups. Restoring databases from backups. Using tools and techniques for monitoring database performance. Assignments:\nConfigure user roles and permissions for a sample database. Set up automated backups and practice restoring from a backup. Week 11-12: Advanced PostgreSQL Features Lecture Topics:\nFull-text search in PostgreSQL. Handling unstructured data with JSON and JSONB. PostgreSQL extensions and their uses. Partitioning and managing large datasets. Practical Sessions:\nImplementing full-text search in a sample application. Storing and querying JSON data. Installing and using PostgreSQL extensions (e.g., PostGIS for geospatial data). Setting up table partitioning to manage large volumes of data. Assignments:\nAdd full-text search functionality to the previously designed schema. Store and retrieve JSON data for a flexible data structure requirement. Week 13-14: Performance Tuning and Optimization Lecture Topics:\nAnalyzing and understanding query performance with EXPLAIN. Index optimization and maintenance. Caching and connection pooling. Database normalization vs. denormalization trade-offs. Practical Sessions:\nUsing EXPLAIN and ANALYZE to understand and optimize queries. Identifying and creating effective indexes. Setting up and configuring a connection pool. Implementing and evaluating normalization and denormalization strategies. Assignments:\nOptimize queries in the previously developed schema for performance. Configure connection pooling for a sample application. Week 15: Final Project and Review Lecture Topics:\nReview of key concepts and techniques covered in the course. Discussion of best practices in database design and management. Introduction to PostgreSQL in the cloud (e.g., using managed services like Amazon RDS, Google Cloud SQL). Practical Sessions:\nStudents work on their final project, incorporating various aspects of PostgreSQL they have learned. Presentations and peer review of final projects. Assignments:\nFinal project: Develop a comprehensive database-driven application using PostgreSQL, applying learned concepts like advanced queries, functions, views, security, and performance optimization. Recommended Resources: Books:\n“PostgreSQL: Up and Running” by Regina Obe and Leo Hsu “PostgreSQL: Introduction and Concepts” by Bruce Momjian “Beginning Databases with PostgreSQL” by Richard Stones and Neil Matthew Online Tutorials and Documentation:\nPostgreSQL Official Documentation PostgreSQL Tutorial Learn PostgreSQL on Codecademy Tools:\nSQL editors (pgAdmin, DBeaver, DataGrip) Command-line tools (psql, pg_dump, pg_restore) Monitoring tools (pgAdmin, pg_stat_statements, PgHero) This curriculum aims to build a strong foundation in PostgreSQL and SQL, gradually introducing more advanced topics and practical applications. By the end of the course, students should be well-equipped to design, implement, and manage PostgreSQL databases effectively.\n",
+  "wordCount" : "835",
+  "inLanguage": "en",
+  "datePublished": "2024-06-11T13:46:17+07:00",
+  "dateModified": "2024-06-11T13:46:17+07:00",
+  "author":[{
+    "@type": "Person",
+    "name": "Deni Andrian Prayoga"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/postgresql-curriculum/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "faultint",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+  
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    }
+  };
+</script>
+
+  
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="faultint (Alt + H)">faultint</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/posts" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      PostgreSQL Curriculum
+    </h1>
+    <div class="post-description">
+      A curriculum to learn PostgreSQL from ChatGPT
+    </div>
+    <div class="post-meta"><span title='2024-06-11 13:46:17 +0700 WIB'>June 11, 2024</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;835 words&nbsp;·&nbsp;Deni Andrian Prayoga
+
+</div>
+  </header> 
+  <div class="post-content"><p>Creating a detailed and comprehensive curriculum for PostgreSQL from scratch requires structuring the course to build foundational knowledge in databases, SQL, and PostgreSQL-specific features and best practices. Here’s a comprehensive outline for a semester-long course, assuming it meets once or twice a week for about 12-15 weeks:</p>
+<h3 id="week-1-2-introduction-to-databases-and-postgresql">Week 1-2: Introduction to Databases and PostgreSQL<a hidden class="anchor" aria-hidden="true" href="#week-1-2-introduction-to-databases-and-postgresql">#</a></h3>
+<ul>
+<li>
+<p><strong>Lecture Topics:</strong></p>
+<ul>
+<li>Basics of databases: what they are, why they are used.</li>
+<li>Types of databases: relational vs. non-relational.</li>
+<li>Introduction to PostgreSQL: history, features, and use cases.</li>
+<li>Installing PostgreSQL and understanding its architecture (server, client, database cluster).</li>
+</ul>
+</li>
+<li>
+<p><strong>Practical Sessions:</strong></p>
+<ul>
+<li>Installing PostgreSQL on different operating systems (Linux, Windows, macOS).</li>
+<li>Initial setup and configuration of PostgreSQL.</li>
+<li>Using the <code>psql</code> command-line tool for basic operations.</li>
+<li>Creating and connecting to a PostgreSQL database.</li>
+</ul>
+</li>
+<li>
+<p><strong>Assignments:</strong></p>
+<ul>
+<li>Install PostgreSQL on your local machine.</li>
+<li>Create a database and practice basic commands using <code>psql</code>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="week-3-4-sql-fundamentals">Week 3-4: SQL Fundamentals<a hidden class="anchor" aria-hidden="true" href="#week-3-4-sql-fundamentals">#</a></h3>
+<ul>
+<li>
+<p><strong>Lecture Topics:</strong></p>
+<ul>
+<li>Introduction to SQL: data definition language (DDL) and data manipulation language (DML).</li>
+<li>Basic SQL commands: <code>SELECT</code>, <code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code>.</li>
+<li>Data types and constraints in PostgreSQL.</li>
+<li>Introduction to table creation and schema design.</li>
+</ul>
+</li>
+<li>
+<p><strong>Practical Sessions:</strong></p>
+<ul>
+<li>Writing SQL queries to retrieve and manipulate data.</li>
+<li>Creating tables with various data types and constraints.</li>
+<li>Inserting, updating, and deleting records in tables.</li>
+<li>Using the PostgreSQL documentation for reference.</li>
+</ul>
+</li>
+<li>
+<p><strong>Assignments:</strong></p>
+<ul>
+<li>Create tables for a sample application (e.g., a simple blog or e-commerce system).</li>
+<li>Write SQL queries to populate and modify data in these tables.</li>
+</ul>
+</li>
+</ul>
+<h3 id="week-5-6-advanced-sql-and-data-relationships">Week 5-6: Advanced SQL and Data Relationships<a hidden class="anchor" aria-hidden="true" href="#week-5-6-advanced-sql-and-data-relationships">#</a></h3>
+<ul>
+<li>
+<p><strong>Lecture Topics:</strong></p>
+<ul>
+<li>Advanced SQL queries: joins, subqueries, and common table expressions (CTEs).</li>
+<li>Understanding and designing relationships: one-to-one, one-to-many, many-to-many.</li>
+<li>Referential integrity and foreign keys.</li>
+<li>Indexes and performance optimization basics.</li>
+</ul>
+</li>
+<li>
+<p><strong>Practical Sessions:</strong></p>
+<ul>
+<li>Writing complex SQL queries involving multiple tables.</li>
+<li>Creating and managing foreign keys to establish relationships.</li>
+<li>Using indexes to improve query performance.</li>
+<li>Analyzing and optimizing slow queries.</li>
+</ul>
+</li>
+<li>
+<p><strong>Assignments:</strong></p>
+<ul>
+<li>Design and implement a database schema for a more complex application (e.g., a school management system).</li>
+<li>Write queries to perform various operations involving multiple tables.</li>
+</ul>
+</li>
+</ul>
+<h3 id="week-7-8-functions-views-and-triggers">Week 7-8: Functions, Views, and Triggers<a hidden class="anchor" aria-hidden="true" href="#week-7-8-functions-views-and-triggers">#</a></h3>
+<ul>
+<li>
+<p><strong>Lecture Topics:</strong></p>
+<ul>
+<li>Introduction to PostgreSQL functions: built-in and user-defined.</li>
+<li>Creating and using views to simplify complex queries.</li>
+<li>Triggers and their use cases: automating database tasks.</li>
+<li>Introduction to PL/pgSQL: PostgreSQL&rsquo;s procedural language.</li>
+</ul>
+</li>
+<li>
+<p><strong>Practical Sessions:</strong></p>
+<ul>
+<li>Creating and using functions for repetitive tasks.</li>
+<li>Defining and utilizing views for reporting and abstraction.</li>
+<li>Writing and testing triggers for data integrity and automation.</li>
+<li>Basic PL/pgSQL programming for creating stored procedures.</li>
+</ul>
+</li>
+<li>
+<p><strong>Assignments:</strong></p>
+<ul>
+<li>Create functions and views to simplify database operations in the previously designed schema.</li>
+<li>Implement triggers to enforce business rules or audit changes.</li>
+</ul>
+</li>
+</ul>
+<h3 id="week-9-10-database-administration-and-security">Week 9-10: Database Administration and Security<a hidden class="anchor" aria-hidden="true" href="#week-9-10-database-administration-and-security">#</a></h3>
+<ul>
+<li>
+<p><strong>Lecture Topics:</strong></p>
+<ul>
+<li>Overview of PostgreSQL database administration.</li>
+<li>User roles, permissions, and security best practices.</li>
+<li>Backup and recovery strategies.</li>
+<li>Monitoring and maintaining database health.</li>
+</ul>
+</li>
+<li>
+<p><strong>Practical Sessions:</strong></p>
+<ul>
+<li>Creating and managing users and roles in PostgreSQL.</li>
+<li>Setting up and testing database backups.</li>
+<li>Restoring databases from backups.</li>
+<li>Using tools and techniques for monitoring database performance.</li>
+</ul>
+</li>
+<li>
+<p><strong>Assignments:</strong></p>
+<ul>
+<li>Configure user roles and permissions for a sample database.</li>
+<li>Set up automated backups and practice restoring from a backup.</li>
+</ul>
+</li>
+</ul>
+<h3 id="week-11-12-advanced-postgresql-features">Week 11-12: Advanced PostgreSQL Features<a hidden class="anchor" aria-hidden="true" href="#week-11-12-advanced-postgresql-features">#</a></h3>
+<ul>
+<li>
+<p><strong>Lecture Topics:</strong></p>
+<ul>
+<li>Full-text search in PostgreSQL.</li>
+<li>Handling unstructured data with JSON and JSONB.</li>
+<li>PostgreSQL extensions and their uses.</li>
+<li>Partitioning and managing large datasets.</li>
+</ul>
+</li>
+<li>
+<p><strong>Practical Sessions:</strong></p>
+<ul>
+<li>Implementing full-text search in a sample application.</li>
+<li>Storing and querying JSON data.</li>
+<li>Installing and using PostgreSQL extensions (e.g., PostGIS for geospatial data).</li>
+<li>Setting up table partitioning to manage large volumes of data.</li>
+</ul>
+</li>
+<li>
+<p><strong>Assignments:</strong></p>
+<ul>
+<li>Add full-text search functionality to the previously designed schema.</li>
+<li>Store and retrieve JSON data for a flexible data structure requirement.</li>
+</ul>
+</li>
+</ul>
+<h3 id="week-13-14-performance-tuning-and-optimization">Week 13-14: Performance Tuning and Optimization<a hidden class="anchor" aria-hidden="true" href="#week-13-14-performance-tuning-and-optimization">#</a></h3>
+<ul>
+<li>
+<p><strong>Lecture Topics:</strong></p>
+<ul>
+<li>Analyzing and understanding query performance with <code>EXPLAIN</code>.</li>
+<li>Index optimization and maintenance.</li>
+<li>Caching and connection pooling.</li>
+<li>Database normalization vs. denormalization trade-offs.</li>
+</ul>
+</li>
+<li>
+<p><strong>Practical Sessions:</strong></p>
+<ul>
+<li>Using <code>EXPLAIN</code> and <code>ANALYZE</code> to understand and optimize queries.</li>
+<li>Identifying and creating effective indexes.</li>
+<li>Setting up and configuring a connection pool.</li>
+<li>Implementing and evaluating normalization and denormalization strategies.</li>
+</ul>
+</li>
+<li>
+<p><strong>Assignments:</strong></p>
+<ul>
+<li>Optimize queries in the previously developed schema for performance.</li>
+<li>Configure connection pooling for a sample application.</li>
+</ul>
+</li>
+</ul>
+<h3 id="week-15-final-project-and-review">Week 15: Final Project and Review<a hidden class="anchor" aria-hidden="true" href="#week-15-final-project-and-review">#</a></h3>
+<ul>
+<li>
+<p><strong>Lecture Topics:</strong></p>
+<ul>
+<li>Review of key concepts and techniques covered in the course.</li>
+<li>Discussion of best practices in database design and management.</li>
+<li>Introduction to PostgreSQL in the cloud (e.g., using managed services like Amazon RDS, Google Cloud SQL).</li>
+</ul>
+</li>
+<li>
+<p><strong>Practical Sessions:</strong></p>
+<ul>
+<li>Students work on their final project, incorporating various aspects of PostgreSQL they have learned.</li>
+<li>Presentations and peer review of final projects.</li>
+</ul>
+</li>
+<li>
+<p><strong>Assignments:</strong></p>
+<ul>
+<li>Final project: Develop a comprehensive database-driven application using PostgreSQL, applying learned concepts like advanced queries, functions, views, security, and performance optimization.</li>
+</ul>
+</li>
+</ul>
+<h3 id="recommended-resources">Recommended Resources:<a hidden class="anchor" aria-hidden="true" href="#recommended-resources">#</a></h3>
+<ul>
+<li>
+<p><strong>Books:</strong></p>
+<ul>
+<li>&ldquo;PostgreSQL: Up and Running&rdquo; by Regina Obe and Leo Hsu</li>
+<li>&ldquo;PostgreSQL: Introduction and Concepts&rdquo; by Bruce Momjian</li>
+<li>&ldquo;Beginning Databases with PostgreSQL&rdquo; by Richard Stones and Neil Matthew</li>
+</ul>
+</li>
+<li>
+<p><strong>Online Tutorials and Documentation:</strong></p>
+<ul>
+<li><a href="https://www.postgresql.org/docs/">PostgreSQL Official Documentation</a></li>
+<li><a href="https://www.postgresqltutorial.com/">PostgreSQL Tutorial</a></li>
+<li><a href="https://www.codecademy.com/learn/learn-sql">Learn PostgreSQL on Codecademy</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>SQL editors (pgAdmin, DBeaver, DataGrip)</li>
+<li>Command-line tools (<code>psql</code>, <code>pg_dump</code>, <code>pg_restore</code>)</li>
+<li>Monitoring tools (pgAdmin, pg_stat_statements, PgHero)</li>
+</ul>
+</li>
+</ul>
+<p>This curriculum aims to build a strong foundation in PostgreSQL and SQL, gradually introducing more advanced topics and practical applications. By the end of the course, students should be well-equipped to design, implement, and manage PostgreSQL databases effectively.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/sql/">Sql</a></li>
+      <li><a href="/tags/postgresql/">PostgreSQL</a></li>
+      <li><a href="/tags/ai-generated/">AI Generated</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="/posts/django-curriculum/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Django Curriculum</span>
+  </a>
+  <a class="next" href="/posts/system-programming-with-c-cpp-curriculum/">
+    <span class="title">Next »</span>
+    <br>
+    <span>System Programming with C/C&#43;&#43; Curriculum</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="/">faultint</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "auto"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = ".63";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

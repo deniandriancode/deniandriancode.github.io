@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Generated on faultint</title>
+    <link>/tags/ai-generated/</link>
+    <description>Recent content in AI Generated on faultint</description>
+    <generator>Hugo -- 0.126.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2024 13:53:56 +0700</lastBuildDate>
+    <atom:link href="/tags/ai-generated/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux From Scratch Curriculum</title>
+      <link>/posts/linux-from-scratch-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:53:56 +0700</pubDate>
+      <guid>/posts/linux-from-scratch-curriculum/</guid>
+      <description>A curriculum to learn Linux From Scratch (LFS) from ChatGPT</description>
+    </item>
+    <item>
+      <title>System Administration Curriculum</title>
+      <link>/posts/system-administration-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:53:45 +0700</pubDate>
+      <guid>/posts/system-administration-curriculum/</guid>
+      <description>A curriculum to learn System Administration (SysAdmin) from ChatGPT</description>
+    </item>
+    <item>
+      <title>Gentoo Linux Curriculum</title>
+      <link>/posts/gentoo-linux-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:53:38 +0700</pubDate>
+      <guid>/posts/gentoo-linux-curriculum/</guid>
+      <description>A curriculum to learn Gentoo Linux from ChatGPT</description>
+    </item>
+    <item>
+      <title>Physics as Thinking Framework Curriculum</title>
+      <link>/posts/physics-as-thinking-framework-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:51:46 +0700</pubDate>
+      <guid>/posts/physics-as-thinking-framework-curriculum/</guid>
+      <description>A curriculum to learn Physics as Thinking Framework from ChatGPT</description>
+    </item>
+    <item>
+      <title>Arch Linux Curriculum</title>
+      <link>/posts/arch-linux-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:50:35 +0700</pubDate>
+      <guid>/posts/arch-linux-curriculum/</guid>
+      <description>A curriculum to learn Arch Linux from ChatGPT</description>
+    </item>
+    <item>
+      <title>Linux Operating System Curriculum</title>
+      <link>/posts/linux-operating-system-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:50:06 +0700</pubDate>
+      <guid>/posts/linux-operating-system-curriculum/</guid>
+      <description>A curriculum to learn Linux Operating System from ChatGPT</description>
+    </item>
+    <item>
+      <title>Data Structure and Algorithms Curriculum</title>
+      <link>/posts/data-structure-and-algorithms-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:49:35 +0700</pubDate>
+      <guid>/posts/data-structure-and-algorithms-curriculum/</guid>
+      <description>A curriculum to learn Data Structure and Algorithms from ChatGPT</description>
+    </item>
+    <item>
+      <title>Mathematics for Computer Science Curriculum</title>
+      <link>/posts/mathematics-for-computer-science-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:49:02 +0700</pubDate>
+      <guid>/posts/mathematics-for-computer-science-curriculum/</guid>
+      <description>A curriculum to learn Mathematics for Computer Science from ChatGPT</description>
+    </item>
+    <item>
+      <title>Backend Web Development Curriculum</title>
+      <link>/posts/backend-web-development-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:48:32 +0700</pubDate>
+      <guid>/posts/backend-web-development-curriculum/</guid>
+      <description>A curriculum to learn Backend Web Development from ChatGPT</description>
+    </item>
+    <item>
+      <title>Django Curriculum</title>
+      <link>/posts/django-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:47:59 +0700</pubDate>
+      <guid>/posts/django-curriculum/</guid>
+      <description>A curriculum to learn Backend Web Development from ChatGPT</description>
+    </item>
+    <item>
+      <title>PostgreSQL Curriculum</title>
+      <link>/posts/postgresql-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:46:17 +0700</pubDate>
+      <guid>/posts/postgresql-curriculum/</guid>
+      <description>A curriculum to learn PostgreSQL from ChatGPT</description>
+    </item>
+    <item>
+      <title>System Programming with C/C&#43;&#43; Curriculum</title>
+      <link>/posts/system-programming-with-c-cpp-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:43:47 +0700</pubDate>
+      <guid>/posts/system-programming-with-c-cpp-curriculum/</guid>
+      <description>A curriculum to learn system programming using C/C&#43;&#43; from ChatGPT</description>
+    </item>
+    <item>
+      <title>Assembly x86 Curriculum</title>
+      <link>/posts/assembly-x86-curriculum/</link>
+      <pubDate>Mon, 10 Jun 2024 21:19:23 +0700</pubDate>
+      <guid>/posts/assembly-x86-curriculum/</guid>
+      <description>Curriculum to learn Assembly x86 from GPT4o</description>
+    </item>
+  </channel>
+</rss>
