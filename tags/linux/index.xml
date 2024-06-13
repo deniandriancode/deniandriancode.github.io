@@ -48,7 +48,8 @@
       <link>/posts/hard-link-soft-link-in-a-nutshell-linux/</link>
       <pubDate>Mon, 10 Jun 2024 20:47:46 +0700</pubDate>
       <guid>/posts/hard-link-soft-link-in-a-nutshell-linux/</guid>
-      <description>COMING SOON </description>
+      <description>Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what&amp;rsquo;s the difference between the two.
+What is inode? Your computer needs a way to &amp;rsquo;labelize&amp;rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that&amp;rsquo;s used to identify an inode.</description>
     </item>
   </channel>
 </rss>

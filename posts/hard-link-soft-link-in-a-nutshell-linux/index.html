@@ -7,7 +7,8 @@
 <meta name="robots" content="index, follow">
 <title>Linux Hard Link and Soft Link in a Nutshell | faultint</title>
 <meta name="keywords" content="linux, cli">
-<meta name="description" content="COMING SOON ">
+<meta name="description" content="Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what&rsquo;s the difference between the two.
+What is inode? Your computer needs a way to &rsquo;labelize&rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that&rsquo;s used to identify an inode.">
 <meta name="author" content="Deni Andrian Prayoga">
 <link rel="canonical" href="/posts/hard-link-soft-link-in-a-nutshell-linux/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.5b0d59190c3edae41d8443118148db1b6a344d43938392164dcd117a0590b274.css" integrity="sha256-Ww1ZGQw&#43;2uQdhEMRgUjbG2o0TUOTg5IWTc0RegWQsnQ=" rel="preload stylesheet" as="style">
@@ -62,7 +63,8 @@
   
 
 <meta property="og:title" content="Linux Hard Link and Soft Link in a Nutshell" />
-<meta property="og:description" content="COMING SOON " />
+<meta property="og:description" content="Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what&rsquo;s the difference between the two.
+What is inode? Your computer needs a way to &rsquo;labelize&rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that&rsquo;s used to identify an inode." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/hard-link-soft-link-in-a-nutshell-linux/" />
 <meta property="og:image" content="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&amp;w=1470&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" /><meta property="article:section" content="posts" />
@@ -72,7 +74,8 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&amp;w=1470&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
 <meta name="twitter:title" content="Linux Hard Link and Soft Link in a Nutshell"/>
-<meta name="twitter:description" content="COMING SOON "/>
+<meta name="twitter:description" content="Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what&rsquo;s the difference between the two.
+What is inode? Your computer needs a way to &rsquo;labelize&rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that&rsquo;s used to identify an inode."/>
 
 
 <script type="application/ld+json">
@@ -101,12 +104,12 @@
   "@type": "BlogPosting",
   "headline": "Linux Hard Link and Soft Link in a Nutshell",
   "name": "Linux Hard Link and Soft Link in a Nutshell",
-  "description": "COMING SOON ",
+  "description": "Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what\u0026rsquo;s the difference between the two.\nWhat is inode? Your computer needs a way to \u0026rsquo;labelize\u0026rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that\u0026rsquo;s used to identify an inode.",
   "keywords": [
     "linux", "cli"
   ],
-  "articleBody": "COMING SOON ",
-  "wordCount" : "2",
+  "articleBody": "Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what’s the difference between the two.\nWhat is inode? Your computer needs a way to ’labelize’ files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that’s used to identify an inode. The inode is a data structure that describe a file-system object.\nEach file associated with inode, which is identified by an inode number. The inode contains metadata about a file, that is it has data that describe the data inside a file. A directory is just a file containing a list of inodes.\nAn inode can only associated with one file. When you move a file, you actually just putting a different path to the inode. Changing inode means changing the identity of a file at hardware level, so it is not a trivial thing to do and we rarely need to do that.\nWhat is filename? A filename or file name is a name used to uniquely identify a computer file in a file system.\n~ Wikipedia\nFilename is pretty obvious, filename to a file is like a title to a book. The definition from wikipedia said that is a unique identifier but actually it must be unique only for current directory. You can, for example, have a file named fin.txt in ~/.config and ~/Downloads.\nIt is what’s searched by software like find. File manager software also list filename when displaying files instead of inode.\nChanging a filename is easy compared to changing an inode. When you change a filename, you just changing an attribute of a file and not its identity.\nHardlink Coming soon\nSoftlink Coming soon\nPointer to Inode and Filename Coming soon\nUsing ln Command Coming soon\nAfterword Coming soon\n",
+  "wordCount" : "327",
   "inLanguage": "en",
   "image":"https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80\u0026w=1470\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.0.3\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","datePublished": "2024-06-10T20:47:46+07:00",
   "dateModified": "2024-06-10T20:47:46+07:00",
@@ -128,17 +131,6 @@
   }
 }
 </script>
-  
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-<script>
-  MathJax = {
-    tex: {
-      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
-      inlineMath: [['\\(', '\\)']]                  
-    }
-  };
-</script>
-
   
 </head>
 
@@ -208,14 +200,54 @@
     <h1 class="post-title entry-hint-parent">
       Linux Hard Link and Soft Link in a Nutshell
     </h1>
-    <div class="post-meta"><span title='2024-06-10 20:47:46 +0700 WIB'>June 10, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;2 words&nbsp;·&nbsp;Deni Andrian Prayoga&nbsp;|&nbsp;<a href="https://github.com/deniandriancode/deniandriancode.github.io-precompiled/tree/main/content/posts/hard-link-soft-link-in-a-nutshell-linux.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2024-06-10 20:47:46 +0700 WIB'>June 10, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;327 words&nbsp;·&nbsp;Deni Andrian Prayoga&nbsp;|&nbsp;<a href="https://github.com/deniandriancode/deniandriancode.github.io-precompiled/tree/main/content/posts/hard-link-soft-link-in-a-nutshell-linux.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> 
 <figure class="entry-cover"><img loading="eager" src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&amp;w=1470&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Source: [unsplash](https://unsplash.com/photos/black-computer-keyboard-DuHKoV44prg)">
         <p>Source: <a href="https://unsplash.com/photos/black-computer-keyboard-DuHKoV44prg">unsplash</a></p>
 </figure>
-  <div class="post-content"><h1 id="coming-soon">COMING SOON<a hidden class="anchor" aria-hidden="true" href="#coming-soon">#</a></h1>
+  <div class="post-content"><h2 id="definition">Definition<a hidden class="anchor" aria-hidden="true" href="#definition">#</a></h2>
+<p>Before we talk about hardlink and softlink in linux, we must
+first know what is inode and filename, and what&rsquo;s the difference
+between the two.</p>
+<h3 id="what-is-inode">What is inode?<a hidden class="anchor" aria-hidden="true" href="#what-is-inode">#</a></h3>
+<p>Your computer needs a way to &rsquo;labelize&rsquo; files in its filesystem.
+Remember, <a href="https://en.wikipedia.org/wiki/Everything_is_a_file">everything is a file</a> in linux.
+One way to do this is to put a unique integer value to the file.
+This unique integer value is what we called the <em>inode number</em>, which
+is a number that&rsquo;s used to identify an <em>inode</em>. The <a href="https://en.wikipedia.org/wiki/Inode">inode</a> is a data structure
+that describe a file-system object.</p>
+<p>Each file associated with inode, which is identified by an inode number.
+The inode contains metadata about a file, that is it has data that describe
+the data inside a file. A directory is just a file containing a list of
+inodes.</p>
+<p>An inode can only associated with one file. When you move a file, you actually
+just putting a different path to the inode. Changing inode means changing
+the identity of a file at hardware level, so it is not a trivial thing to do
+and we rarely need to do that.</p>
+<h3 id="what-is-filename">What is filename?<a hidden class="anchor" aria-hidden="true" href="#what-is-filename">#</a></h3>
+<blockquote>
+<p>A filename or file name is a name used to uniquely identify a computer file in a file system.</p>
+<p><em>~ <a href="https://en.wikipedia.org/wiki/Filename">Wikipedia</a></em></p>
+</blockquote>
+<p>Filename is pretty obvious, filename to a file is like a title to a book. The definition from
+wikipedia said that is a unique identifier but actually <em>it must be unique only for current</em>
+<em>directory</em>. You can, for example, have a file named fin.txt in ~/.config and ~/Downloads.</p>
+<p>It is what&rsquo;s searched by software like <code>find</code>. File manager software also list filename
+when displaying files instead of inode.</p>
+<p>Changing a filename is easy compared to changing an inode. When you change a filename,
+you just changing an attribute of a file and not its identity.</p>
+<h3 id="hardlink">Hardlink<a hidden class="anchor" aria-hidden="true" href="#hardlink">#</a></h3>
+<p><em>Coming soon</em></p>
+<h3 id="softlink">Softlink<a hidden class="anchor" aria-hidden="true" href="#softlink">#</a></h3>
+<p><em>Coming soon</em></p>
+<h2 id="pointer-to-inode-and-filename">Pointer to Inode and Filename<a hidden class="anchor" aria-hidden="true" href="#pointer-to-inode-and-filename">#</a></h2>
+<p><em>Coming soon</em></p>
+<h2 id="using-ln-command">Using <code>ln</code> Command<a hidden class="anchor" aria-hidden="true" href="#using-ln-command">#</a></h2>
+<p><em>Coming soon</em></p>
+<h2 id="afterword">Afterword<a hidden class="anchor" aria-hidden="true" href="#afterword">#</a></h2>
+<p><em>Coming soon</em></p>
 
 
   </div>
