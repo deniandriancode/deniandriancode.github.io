@@ -158,7 +158,7 @@ General Understanding base64 in C# Applied Mathematics for Programming - MIT How
 What is inode? Your computer needs a way to &amp;rsquo;labelize&amp;rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that&amp;rsquo;s used to identify an inode.</description>
     </item>
     <item>
-      <title>Keep Writing Code Until it Becomes Meaningless</title>
+      <title>Keep Writing Code Until It Becomes Meaningless</title>
       <link>/posts/start-coding-small/</link>
       <pubDate>Thu, 06 Jun 2024 20:23:33 +0700</pubDate>
       <guid>/posts/start-coding-small/</guid>
