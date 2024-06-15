@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>X86 on faultint</title>
-    <link>/tags/x86/</link>
+    <link>/tags/x86/index.xml</link>
     <description>Recent content in X86 on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>

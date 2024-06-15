@@ -2,12 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>C&#43;&#43; on faultint</title>
-    <link>/tags/c&#43;&#43;/</link>
+    <link>/tags/c&#43;&#43;/index.xml</link>
     <description>Recent content in C&#43;&#43; on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jun 2024 16:30:54 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2024 20:59:34 +0700</lastBuildDate>
     <atom:link href="/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pointer and Const in C&#43;&#43;</title>
+      <link>/posts/cpp-pointer-const/</link>
+      <pubDate>Sat, 15 Jun 2024 20:59:34 +0700</pubDate>
+      <guid>/posts/cpp-pointer-const/</guid>
+      <description>The following paragraphs are the summary of pointer and const in C++, I always forget about this topic so I decided to create a post about it.
+Regular Pointers Regular pointers are pointers the we usually use when working with pointers in C++.
+int main() { int x = 5; int* ptr = &amp;amp;x; // regular pointer to x x = 6; // *ptr would be 6 // we can change the value at the address being held *ptr = 1; // x and *ptr would be 1 int y = 88; ptr = &amp;amp;y; // changing the address that ptr is pointing at return 0; } Pointer to a const value I won&amp;rsquo;t explain what is it and the rest of the it since it is easier to explain it using code rather than using words.</description>
+    </item>
     <item>
       <title>C&#43;&#43; for Data Structures and Algorithms Curriculum</title>
       <link>/posts/cpp-for-dsa-curriculum/</link>

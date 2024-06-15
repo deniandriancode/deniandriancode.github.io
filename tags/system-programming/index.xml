@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>System Programming on faultint</title>
-    <link>/tags/system-programming/</link>
+    <link>/tags/system-programming/index.xml</link>
     <description>Recent content in System Programming on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>

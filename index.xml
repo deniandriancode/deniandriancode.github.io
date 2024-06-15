@@ -6,15 +6,32 @@
     <description>Recent content on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jun 2024 16:30:54 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2024 21:36:38 +0700</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bookmarks Homepage</title>
       <link>/posts/bookmark-home/</link>
       <pubDate>Sun, 09 Jun 2024 14:05:34 +0700</pubDate>
       <guid>/posts/bookmark-home/</guid>
-      <description>I list my favorite websites here, I want to share this list so maybe the others find this list userful. I didn&amp;rsquo;t put them on specific category since the list is still small, I might do that in the future.
+      <description>I list my favorite websites here, I want to share this list so maybe the others find this list useful. I didn&amp;rsquo;t put them on specific category since the list is still small, I might do that in the future.
 General Understanding base64 in C# Applied Mathematics for Programming - MIT How to write a good paragraph Searching code with grep by MDN Common UNIX utilities How to put information together - GCFGlobal Assembly x86 tutorial by Loyola Marymount University Roby&amp;rsquo;s PC Assembly (x86) Tutorial Japanese Vocabularies - Kanshudo Linux System Programming Introduction - Coursera 50 Dynamic Programming Problems Regular Expression Matching Discrete Mathematics by everythingcomputerscience.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sat, 15 Jun 2024 21:36:38 +0700</pubDate>
+      <guid>/about/</guid>
+      <description>Well, hello there! My name is Deni Andrian Prayoga. I&amp;rsquo;m just a regular man who loves building stuff solving problems using mathematics and programming. You&amp;rsquo;ll find my thoughts about mathematics, programming, and human languages in this website, whenever I have idea about those stuff, I will post it here. You can mail me at deniandriancode@gmail.com.
+Enjoy your stay.</description>
+    </item>
+    <item>
+      <title>Pointer and Const in C&#43;&#43;</title>
+      <link>/posts/cpp-pointer-const/</link>
+      <pubDate>Sat, 15 Jun 2024 20:59:34 +0700</pubDate>
+      <guid>/posts/cpp-pointer-const/</guid>
+      <description>The following paragraphs are the summary of pointer and const in C++, I always forget about this topic so I decided to create a post about it.
+Regular Pointers Regular pointers are pointers the we usually use when working with pointers in C++.
+int main() { int x = 5; int* ptr = &amp;amp;x; // regular pointer to x x = 6; // *ptr would be 6 // we can change the value at the address being held *ptr = 1; // x and *ptr would be 1 int y = 88; ptr = &amp;amp;y; // changing the address that ptr is pointing at return 0; } Pointer to a const value I won&amp;rsquo;t explain what is it and the rest of the it since it is easier to explain it using code rather than using words.</description>
     </item>
     <item>
       <title>C&#43;&#43; for Data Structures and Algorithms Curriculum</title>

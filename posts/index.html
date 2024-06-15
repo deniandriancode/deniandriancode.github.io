@@ -144,6 +144,11 @@
                     <span>Archives</span>
                 </a>
             </li>
+            <li>
+                <a href="/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -151,6 +156,14 @@
 <header class="page-header">
   <h1>
     Posts
+    <a href="/posts/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
   </h1>
 </header>
 
@@ -160,11 +173,25 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>I list my favorite websites here, I want to share this list so maybe the others find this list userful. I didn’t put them on specific category since the list is still small, I might do that in the future.
+    <p>I list my favorite websites here, I want to share this list so maybe the others find this list useful. I didn’t put them on specific category since the list is still small, I might do that in the future.
 General Understanding base64 in C# Applied Mathematics for Programming - MIT How to write a good paragraph Searching code with grep by MDN Common UNIX utilities How to put information together - GCFGlobal Assembly x86 tutorial by Loyola Marymount University Roby’s PC Assembly (x86) Tutorial Japanese Vocabularies - Kanshudo Linux System Programming Introduction - Coursera 50 Dynamic Programming Problems Regular Expression Matching Discrete Mathematics by everythingcomputerscience....</p>
   </div>
-  <footer class="entry-footer"><span title='2024-06-09 14:05:34 +0700 WIB'>June 9, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;182 words&nbsp;·&nbsp;Deni Andrian Prayoga</footer>
+  <footer class="entry-footer"><span title='2024-06-09 14:05:34 +0700 WIB'>June 9, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;189 words&nbsp;·&nbsp;Deni Andrian Prayoga</footer>
   <a class="entry-link" aria-label="post link to Bookmarks Homepage" href="/posts/bookmark-home/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Pointer and Const in C&#43;&#43;
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The following paragraphs are the summary of pointer and const in C&#43;&#43;, I always forget about this topic so I decided to create a post about it.
+Regular Pointers Regular pointers are pointers the we usually use when working with pointers in C&#43;&#43;.
+int main() { int x = 5; int* ptr = &amp;x; // regular pointer to x x = 6; // *ptr would be 6 // we can change the value at the address being held *ptr = 1; // x and *ptr would be 1 int y = 88; ptr = &amp;y; // changing the address that ptr is pointing at return 0; } Pointer to a const value I won’t explain what is it and the rest of the it since it is easier to explain it using code rather than using words....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-06-15 20:59:34 +0700 WIB'>June 15, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;393 words&nbsp;·&nbsp;Deni Andrian Prayoga</footer>
+  <a class="entry-link" aria-label="post link to Pointer and Const in C&#43;&#43;" href="/posts/cpp-pointer-const/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -278,19 +305,6 @@ Understanding the Linux kernel The concept of the GNU project and Linux distribu
   </div>
   <footer class="entry-footer"><span title='2024-06-11 13:53:38 +0700 WIB'>June 11, 2024</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;849 words&nbsp;·&nbsp;Deni Andrian Prayoga</footer>
   <a class="entry-link" aria-label="post link to Gentoo Linux Curriculum" href="/posts/gentoo-linux-curriculum/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Physics as Thinking Framework Curriculum
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Creating a comprehensive curriculum on “Physics as a Thinking Framework” from scratch involves building a solid foundation in basic physics concepts and progressively introducing more complex topics. The curriculum should focus not only on theoretical understanding but also on practical application and problem-solving skills. Here’s a structured approach:
-Course Title: Physics as a Thinking Framework Course Duration: 1 Academic Year (Assuming a typical academic year with two semesters) Course Objectives: Introduce fundamental concepts of physics....</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-06-11 13:51:46 +0700 WIB'>June 11, 2024</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;735 words&nbsp;·&nbsp;Deni Andrian Prayoga</footer>
-  <a class="entry-link" aria-label="post link to Physics as Thinking Framework Curriculum" href="/posts/physics-as-thinking-framework-curriculum/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
