@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on faultint</title>
+    <link>/en/posts/</link>
+    <description>Recent content in Posts on faultint</description>
+    <generator>Hugo -- 0.126.3</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Jun 2024 20:59:34 +0700</lastBuildDate>
+    <atom:link href="/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bookmarks Homepage</title>
+      <link>/en/posts/bookmark-home/</link>
+      <pubDate>Sun, 09 Jun 2024 14:05:34 +0700</pubDate>
+      <guid>/en/posts/bookmark-home/</guid>
+      <description>I list my favorite websites here, I want to share this list so maybe the others find this list useful. I didn&amp;rsquo;t put them on specific category since the list is still small, I might do that in the future.
+General Understanding base64 in C# Applied Mathematics for Programming - MIT How to write a good paragraph Searching code with grep by MDN Common UNIX utilities How to put information together - GCFGlobal Assembly x86 tutorial by Loyola Marymount University Roby&amp;rsquo;s PC Assembly (x86) Tutorial Japanese Vocabularies - Kanshudo Linux System Programming Introduction - Coursera 50 Dynamic Programming Problems Regular Expression Matching Discrete Mathematics by everythingcomputerscience.</description>
+    </item>
+    <item>
+      <title>Pointer and Const in C&#43;&#43;</title>
+      <link>/en/posts/cpp-pointer-const/</link>
+      <pubDate>Sat, 15 Jun 2024 20:59:34 +0700</pubDate>
+      <guid>/en/posts/cpp-pointer-const/</guid>
+      <description>The following paragraphs are the summary of pointer and const in C++, I always forget about this topic so I decided to create a post about it.
+Regular Pointers Regular pointers are pointers the we usually use when working with pointers in C++.
+int main() { int x = 5; int* ptr = &amp;amp;x; // regular pointer to x x = 6; // *ptr would be 6 // we can change the value at the address being held *ptr = 1; // x and *ptr would be 1 int y = 88; ptr = &amp;amp;y; // changing the address that ptr is pointing at return 0; } Pointer to a const value I won&amp;rsquo;t explain what is it and the rest of the it since it is easier to explain it using code rather than using words.</description>
+    </item>
+    <item>
+      <title>C&#43;&#43; for Data Structures and Algorithms Curriculum</title>
+      <link>/en/posts/cpp-for-dsa-curriculum/</link>
+      <pubDate>Wed, 12 Jun 2024 16:30:54 +0700</pubDate>
+      <guid>/en/posts/cpp-for-dsa-curriculum/</guid>
+      <description>A curriculum about C&#43;&#43; for Data Structures and Algorithms from ChatGPT</description>
+    </item>
+    <item>
+      <title>C&#43;&#43; for Competitive Programming Curriculum</title>
+      <link>/en/posts/cpp-for-competitive-programming-curriculum/</link>
+      <pubDate>Wed, 12 Jun 2024 16:30:46 +0700</pubDate>
+      <guid>/en/posts/cpp-for-competitive-programming-curriculum/</guid>
+      <description>A curriculum about C&#43;&#43; for Competitive Programming from ChatGPT</description>
+    </item>
+    <item>
+      <title>Neovim Curriculum</title>
+      <link>/en/posts/neovim-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 22:19:13 +0700</pubDate>
+      <guid>/en/posts/neovim-curriculum/</guid>
+      <description>A curriculum about Neovim from ChatGPT</description>
+    </item>
+    <item>
+      <title>Emacs Curriculum</title>
+      <link>/en/posts/emacs-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 22:17:42 +0700</pubDate>
+      <guid>/en/posts/emacs-curriculum/</guid>
+      <description>A curriculum about Emacs from ChatGPT</description>
+    </item>
+    <item>
+      <title>Algorithm Analysis Curriculum</title>
+      <link>/en/posts/algorithm-analysis-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 18:58:54 +0700</pubDate>
+      <guid>/en/posts/algorithm-analysis-curriculum/</guid>
+      <description>A curriculum about Algorithm Analysis from ChatGPT</description>
+    </item>
+    <item>
+      <title>Linux From Scratch Curriculum</title>
+      <link>/en/posts/linux-from-scratch-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:53:56 +0700</pubDate>
+      <guid>/en/posts/linux-from-scratch-curriculum/</guid>
+      <description>A curriculum to learn Linux From Scratch (LFS) from ChatGPT</description>
+    </item>
+    <item>
+      <title>System Administration Curriculum</title>
+      <link>/en/posts/system-administration-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:53:45 +0700</pubDate>
+      <guid>/en/posts/system-administration-curriculum/</guid>
+      <description>A curriculum to learn System Administration (SysAdmin) from ChatGPT</description>
+    </item>
+    <item>
+      <title>Gentoo Linux Curriculum</title>
+      <link>/en/posts/gentoo-linux-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:53:38 +0700</pubDate>
+      <guid>/en/posts/gentoo-linux-curriculum/</guid>
+      <description>A curriculum to learn Gentoo Linux from ChatGPT</description>
+    </item>
+    <item>
+      <title>Physics as Thinking Framework Curriculum</title>
+      <link>/en/posts/physics-as-thinking-framework-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:51:46 +0700</pubDate>
+      <guid>/en/posts/physics-as-thinking-framework-curriculum/</guid>
+      <description>A curriculum to learn Physics as Thinking Framework from ChatGPT</description>
+    </item>
+    <item>
+      <title>Arch Linux Curriculum</title>
+      <link>/en/posts/arch-linux-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:50:35 +0700</pubDate>
+      <guid>/en/posts/arch-linux-curriculum/</guid>
+      <description>A curriculum to learn Arch Linux from ChatGPT</description>
+    </item>
+    <item>
+      <title>Linux Operating System Curriculum</title>
+      <link>/en/posts/linux-operating-system-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:50:06 +0700</pubDate>
+      <guid>/en/posts/linux-operating-system-curriculum/</guid>
+      <description>A curriculum to learn Linux Operating System from ChatGPT</description>
+    </item>
+    <item>
+      <title>Data Structure and Algorithms Curriculum</title>
+      <link>/en/posts/data-structure-and-algorithms-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:49:35 +0700</pubDate>
+      <guid>/en/posts/data-structure-and-algorithms-curriculum/</guid>
+      <description>A curriculum to learn Data Structure and Algorithms from ChatGPT</description>
+    </item>
+    <item>
+      <title>Mathematics for Computer Science Curriculum</title>
+      <link>/en/posts/mathematics-for-computer-science-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:49:02 +0700</pubDate>
+      <guid>/en/posts/mathematics-for-computer-science-curriculum/</guid>
+      <description>A curriculum to learn Mathematics for Computer Science from ChatGPT</description>
+    </item>
+    <item>
+      <title>Backend Web Development Curriculum</title>
+      <link>/en/posts/backend-web-development-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:48:32 +0700</pubDate>
+      <guid>/en/posts/backend-web-development-curriculum/</guid>
+      <description>A curriculum to learn Backend Web Development from ChatGPT</description>
+    </item>
+    <item>
+      <title>Django Curriculum</title>
+      <link>/en/posts/django-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:47:59 +0700</pubDate>
+      <guid>/en/posts/django-curriculum/</guid>
+      <description>A curriculum to learn Backend Web Development from ChatGPT</description>
+    </item>
+    <item>
+      <title>PostgreSQL Curriculum</title>
+      <link>/en/posts/postgresql-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:46:17 +0700</pubDate>
+      <guid>/en/posts/postgresql-curriculum/</guid>
+      <description>A curriculum to learn PostgreSQL from ChatGPT</description>
+    </item>
+    <item>
+      <title>System Programming with C/C&#43;&#43; Curriculum</title>
+      <link>/en/posts/system-programming-with-c-cpp-curriculum/</link>
+      <pubDate>Tue, 11 Jun 2024 13:43:47 +0700</pubDate>
+      <guid>/en/posts/system-programming-with-c-cpp-curriculum/</guid>
+      <description>A curriculum to learn system programming using C/C&#43;&#43; from ChatGPT</description>
+    </item>
+    <item>
+      <title>Assembly x86 Curriculum</title>
+      <link>/en/posts/assembly-x86-curriculum/</link>
+      <pubDate>Mon, 10 Jun 2024 21:19:23 +0700</pubDate>
+      <guid>/en/posts/assembly-x86-curriculum/</guid>
+      <description>Curriculum to learn Assembly x86 from GPT4o</description>
+    </item>
+    <item>
+      <title>Linux Hard Link and Soft Link in a Nutshell</title>
+      <link>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</link>
+      <pubDate>Mon, 10 Jun 2024 20:47:46 +0700</pubDate>
+      <guid>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</guid>
+      <description>Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what&amp;rsquo;s the difference between the two.
+What is inode? Your computer needs a way to &amp;rsquo;labelize&amp;rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that&amp;rsquo;s used to identify an inode.</description>
+    </item>
+    <item>
+      <title>Keep Writing Code Until It Becomes Meaningless</title>
+      <link>/en/posts/start-coding-small/</link>
+      <pubDate>Thu, 06 Jun 2024 20:23:33 +0700</pubDate>
+      <guid>/en/posts/start-coding-small/</guid>
+      <description>If you are learning programming or computer science related stuff, chances are you will write some code. Coding and programming are two different things, in a nutshell, programming is applying some logic while coding is actually typing the applied logic into machine-readable instruction, read this awesome article from freeCodeCamp.
+You can do programming wherever you are, you don&amp;rsquo;t have to sit in front of your computer since applying some logic don&amp;rsquo;t necessarily need a computer.</description>
+    </item>
+    <item>
+      <title>Documenting Programming Journey with Web Development</title>
+      <link>/en/posts/documenting-programming-journey-with-web-development/</link>
+      <pubDate>Wed, 05 Jun 2024 13:01:22 +0700</pubDate>
+      <guid>/en/posts/documenting-programming-journey-with-web-development/</guid>
+      <description>Learning is a tiresome activity, you need to put a lot of effort and time when learning something, this is even true when learning something by yourself, like programming, since nobody is going to remind you when to study, when to review your note, when to exercise, what to study after you finished the current topic, in other word, you need to put extra effort because nobody is going to guide you whatsoever.</description>
+    </item>
+  </channel>
+</rss>

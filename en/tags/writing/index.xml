@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Writing on faultint</title>
+    <link>/en/tags/writing/index.xml</link>
+    <description>Recent content in Writing on faultint</description>
+    <generator>Hugo -- 0.126.3</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Jun 2024 20:23:33 +0700</lastBuildDate>
+    <atom:link href="/en/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keep Writing Code Until It Becomes Meaningless</title>
+      <link>/en/posts/start-coding-small/</link>
+      <pubDate>Thu, 06 Jun 2024 20:23:33 +0700</pubDate>
+      <guid>/en/posts/start-coding-small/</guid>
+      <description>If you are learning programming or computer science related stuff, chances are you will write some code. Coding and programming are two different things, in a nutshell, programming is applying some logic while coding is actually typing the applied logic into machine-readable instruction, read this awesome article from freeCodeCamp.
+You can do programming wherever you are, you don&amp;rsquo;t have to sit in front of your computer since applying some logic don&amp;rsquo;t necessarily need a computer.</description>
+    </item>
+  </channel>
+</rss>
