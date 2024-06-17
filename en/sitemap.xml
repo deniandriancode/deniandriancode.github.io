@@ -5,6 +5,32 @@
     <loc>/en/posts/bookmark-home/</loc>
     <lastmod>2024-06-09T14:05:34+07:00</lastmod>
   </url><url>
+    <loc>/en/</loc>
+    <lastmod>2024-06-17T19:36:18+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/id/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url><url>
+    <loc>/en/posts/</loc>
+    <lastmod>2024-06-17T19:36:18+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/id/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+  </url><url>
     <loc>/en/about/</loc>
     <lastmod>2024-06-15T21:36:38+07:00</lastmod>
     <xhtml:link
@@ -18,37 +44,11 @@
                 href="/en/about/"
                 />
   </url><url>
-    <loc>/en/</loc>
-    <lastmod>2024-06-15T21:36:38+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="/id/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-  </url><url>
     <loc>/en/tags/c&#43;&#43;/</loc>
     <lastmod>2024-06-15T20:59:34+07:00</lastmod>
   </url><url>
     <loc>/en/posts/cpp-pointer-const/</loc>
     <lastmod>2024-06-15T20:59:34+07:00</lastmod>
-  </url><url>
-    <loc>/en/posts/</loc>
-    <lastmod>2024-06-15T20:59:34+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="/id/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/"
-                />
   </url><url>
     <loc>/en/tags/</loc>
     <lastmod>2024-06-15T20:59:34+07:00</lastmod>
