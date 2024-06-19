@@ -6,7 +6,7 @@
     <lastmod>2024-06-09T14:05:34+07:00</lastmod>
   </url><url>
     <loc>/en/</loc>
-    <lastmod>2024-06-17T19:36:18+07:00</lastmod>
+    <lastmod>2024-06-19T17:40:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -19,7 +19,7 @@
                 />
   </url><url>
     <loc>/en/posts/</loc>
-    <lastmod>2024-06-17T19:36:18+07:00</lastmod>
+    <lastmod>2024-06-19T17:40:06+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -30,6 +30,21 @@
                 hreflang="en"
                 href="/en/posts/"
                 />
+  </url><url>
+    <loc>/en/tags/devlog/</loc>
+    <lastmod>2024-06-19T13:01:22+07:00</lastmod>
+  </url><url>
+    <loc>/en/posts/documenting-programming-journey-with-web-development/</loc>
+    <lastmod>2024-06-19T13:01:22+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/programming/</loc>
+    <lastmod>2024-06-19T13:01:22+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/</loc>
+    <lastmod>2024-06-19T13:01:22+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/web/</loc>
+    <lastmod>2024-06-19T13:01:22+07:00</lastmod>
   </url><url>
     <loc>/en/about/</loc>
     <lastmod>2024-06-15T21:36:38+07:00</lastmod>
@@ -48,9 +63,6 @@
     <lastmod>2024-06-15T20:59:34+07:00</lastmod>
   </url><url>
     <loc>/en/posts/cpp-pointer-const/</loc>
-    <lastmod>2024-06-15T20:59:34+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/</loc>
     <lastmod>2024-06-15T20:59:34+07:00</lastmod>
   </url><url>
     <loc>/en/tags/ai-generated/</loc>
@@ -156,9 +168,6 @@
     <loc>/en/posts/backend-web-development-curriculum/</loc>
     <lastmod>2024-06-11T13:48:32+07:00</lastmod>
   </url><url>
-    <loc>/en/tags/web/</loc>
-    <lastmod>2024-06-11T13:48:32+07:00</lastmod>
-  </url><url>
     <loc>/en/tags/django/</loc>
     <lastmod>2024-06-11T13:47:59+07:00</lastmod>
   </url><url>
@@ -207,17 +216,8 @@
     <loc>/en/posts/start-coding-small/</loc>
     <lastmod>2024-06-06T20:23:33+07:00</lastmod>
   </url><url>
-    <loc>/en/tags/programming/</loc>
-    <lastmod>2024-06-06T20:23:33+07:00</lastmod>
-  </url><url>
     <loc>/en/tags/writing/</loc>
     <lastmod>2024-06-06T20:23:33+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/devlog/</loc>
-    <lastmod>2024-06-05T13:01:22+07:00</lastmod>
-  </url><url>
-    <loc>/en/posts/documenting-programming-journey-with-web-development/</loc>
-    <lastmod>2024-06-05T13:01:22+07:00</lastmod>
   </url><url>
     <loc>/en/categories/</loc>
   </url><url>
