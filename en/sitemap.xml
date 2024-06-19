@@ -5,8 +5,14 @@
     <loc>/en/posts/bookmark-home/</loc>
     <lastmod>2024-06-09T14:05:34+07:00</lastmod>
   </url><url>
+    <loc>/en/tags/ai-generated/</loc>
+    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/c/</loc>
+    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+  </url><url>
     <loc>/en/</loc>
-    <lastmod>2024-06-19T17:40:06+07:00</lastmod>
+    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -18,8 +24,14 @@
                 href="/en/"
                 />
   </url><url>
+    <loc>/en/posts/kernel-development-curriculum/</loc>
+    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/linux/</loc>
+    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+  </url><url>
     <loc>/en/posts/</loc>
-    <lastmod>2024-06-19T17:40:06+07:00</lastmod>
+    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -31,6 +43,9 @@
                 href="/en/posts/"
                 />
   </url><url>
+    <loc>/en/tags/</loc>
+    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+  </url><url>
     <loc>/en/tags/devlog/</loc>
     <lastmod>2024-06-19T13:01:22+07:00</lastmod>
   </url><url>
@@ -38,9 +53,6 @@
     <lastmod>2024-06-19T13:01:22+07:00</lastmod>
   </url><url>
     <loc>/en/tags/programming/</loc>
-    <lastmod>2024-06-19T13:01:22+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/</loc>
     <lastmod>2024-06-19T13:01:22+07:00</lastmod>
   </url><url>
     <loc>/en/tags/web/</loc>
@@ -64,9 +76,6 @@
   </url><url>
     <loc>/en/posts/cpp-pointer-const/</loc>
     <lastmod>2024-06-15T20:59:34+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/ai-generated/</loc>
-    <lastmod>2024-06-12T16:30:54+07:00</lastmod>
   </url><url>
     <loc>/en/posts/cpp-for-dsa-curriculum/</loc>
     <lastmod>2024-06-12T16:30:54+07:00</lastmod>
@@ -110,9 +119,6 @@
   </url><url>
     <loc>/en/posts/algorithm-analysis-curriculum/</loc>
     <lastmod>2024-06-11T18:58:54+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/linux/</loc>
-    <lastmod>2024-06-11T13:53:56+07:00</lastmod>
   </url><url>
     <loc>/en/posts/linux-from-scratch-curriculum/</loc>
     <lastmod>2024-06-11T13:53:56+07:00</lastmod>
@@ -185,9 +191,6 @@
   </url><url>
     <loc>/en/tags/sql/</loc>
     <lastmod>2024-06-11T13:46:17+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/c/</loc>
-    <lastmod>2024-06-11T13:43:47+07:00</lastmod>
   </url><url>
     <loc>/en/tags/system-programming/</loc>
     <lastmod>2024-06-11T13:43:47+07:00</lastmod>
