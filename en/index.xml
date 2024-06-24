@@ -6,7 +6,7 @@
     <description>Recent content on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Jun 2024 23:10:43 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2024 21:44:24 +0700</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bookmarks Homepage</title>
@@ -15,6 +15,29 @@
       <guid>/en/posts/bookmark-home/</guid>
       <description>I list my favorite websites here, I want to share this list so maybe the others find this list useful. I didn&amp;rsquo;t put them on specific category since the list is still small, I might do that in the future.
 General Understanding base64 in C# Applied Mathematics for Programming - MIT How to write a good paragraph Searching code with grep by MDN Common UNIX utilities How to put information together - GCFGlobal Assembly x86 tutorial by Loyola Marymount University Roby&amp;rsquo;s PC Assembly (x86) Tutorial Japanese Vocabularies - Kanshudo Linux System Programming Introduction - Coursera 50 Dynamic Programming Problems Regular Expression Matching Discrete Mathematics by everythingcomputerscience.</description>
+    </item>
+    <item>
+      <title>JLPT Cope Messages</title>
+      <link>/en/posts/jlpt-cope-message/</link>
+      <pubDate>Mon, 24 Jun 2024 21:44:24 +0700</pubDate>
+      <guid>/en/posts/jlpt-cope-message/</guid>
+      <description>Messages I got from ChatGPT while talking about my Japanese learning journey.</description>
+    </item>
+    <item>
+      <title>Linux Hard Link and Soft Link in a Nutshell</title>
+      <link>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</link>
+      <pubDate>Mon, 24 Jun 2024 20:47:46 +0700</pubDate>
+      <guid>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</guid>
+      <description>Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what&amp;rsquo;s the difference between the two.
+What is inode? Your computer needs a way to &amp;rsquo;labelize&amp;rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that&amp;rsquo;s used to identify an inode.</description>
+    </item>
+    <item>
+      <title>Keep Writing Code Until It Becomes Meaningless</title>
+      <link>/en/posts/start-coding-small/</link>
+      <pubDate>Mon, 24 Jun 2024 20:23:33 +0700</pubDate>
+      <guid>/en/posts/start-coding-small/</guid>
+      <description>If you are learning programming or computer science related stuff, chances are you will write some code. Coding and programming are two different things, in a nutshell, programming is applying some logic while coding is actually typing the applied logic into machine-readable instruction, read this awesome article from freeCodeCamp.
+You can do programming wherever you are, you don&amp;rsquo;t have to sit in front of your computer since applying some logic don&amp;rsquo;t necessarily need a computer.</description>
     </item>
     <item>
       <title>Kernel Development Curriculum</title>
@@ -179,22 +202,6 @@ int main() { int x = 5; int* ptr = &amp;amp;x; // regular pointer to x x = 6; //
       <pubDate>Mon, 10 Jun 2024 21:19:23 +0700</pubDate>
       <guid>/en/posts/assembly-x86-curriculum/</guid>
       <description>Curriculum to learn Assembly x86 from GPT4o</description>
-    </item>
-    <item>
-      <title>Linux Hard Link and Soft Link in a Nutshell</title>
-      <link>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</link>
-      <pubDate>Mon, 10 Jun 2024 20:47:46 +0700</pubDate>
-      <guid>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</guid>
-      <description>Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what&amp;rsquo;s the difference between the two.
-What is inode? Your computer needs a way to &amp;rsquo;labelize&amp;rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that&amp;rsquo;s used to identify an inode.</description>
-    </item>
-    <item>
-      <title>Keep Writing Code Until It Becomes Meaningless</title>
-      <link>/en/posts/start-coding-small/</link>
-      <pubDate>Thu, 06 Jun 2024 20:23:33 +0700</pubDate>
-      <guid>/en/posts/start-coding-small/</guid>
-      <description>If you are learning programming or computer science related stuff, chances are you will write some code. Coding and programming are two different things, in a nutshell, programming is applying some logic while coding is actually typing the applied logic into machine-readable instruction, read this awesome article from freeCodeCamp.
-You can do programming wherever you are, you don&amp;rsquo;t have to sit in front of your computer since applying some logic don&amp;rsquo;t necessarily need a computer.</description>
     </item>
   </channel>
 </rss>

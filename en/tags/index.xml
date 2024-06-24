@@ -6,7 +6,7 @@
     <description>Recent content in Tags on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Jun 2024 23:10:43 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2024 21:44:24 +0700</lastBuildDate>
     <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Generated</title>
@@ -16,10 +16,24 @@
       <description></description>
     </item>
     <item>
-      <title>C</title>
-      <link>/en/tags/c/index.xml</link>
+      <title>Japanese</title>
+      <link>/en/tags/japanese/index.xml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/c/index.xml</guid>
+      <guid>/en/tags/japanese/index.xml</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jlpt</title>
+      <link>/en/tags/jlpt/index.xml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/tags/jlpt/index.xml</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cli</title>
+      <link>/en/tags/cli/index.xml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/tags/cli/index.xml</guid>
       <description></description>
     </item>
     <item>
@@ -30,17 +44,31 @@
       <description></description>
     </item>
     <item>
-      <title>Devlog</title>
-      <link>/en/tags/devlog/index.xml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/devlog/index.xml</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Programming</title>
       <link>/en/tags/programming/index.xml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/tags/programming/index.xml</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>/en/tags/writing/index.xml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/tags/writing/index.xml</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>/en/tags/c/index.xml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/tags/c/index.xml</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devlog</title>
+      <link>/en/tags/devlog/index.xml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/tags/devlog/index.xml</guid>
       <description></description>
     </item>
     <item>
@@ -191,24 +219,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cli</title>
-      <link>/en/tags/cli/index.xml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/cli/index.xml</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Miscellaneous</title>
       <link>/en/tags/miscellaneous/index.xml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/tags/miscellaneous/index.xml</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Writing</title>
-      <link>/en/tags/writing/index.xml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/writing/index.xml</guid>
       <description></description>
     </item>
   </channel>

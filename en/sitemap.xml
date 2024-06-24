@@ -6,13 +6,10 @@
     <lastmod>2024-06-09T14:05:34+07:00</lastmod>
   </url><url>
     <loc>/en/tags/ai-generated/</loc>
-    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/c/</loc>
-    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+    <lastmod>2024-06-24T21:44:24+07:00</lastmod>
   </url><url>
     <loc>/en/</loc>
-    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+    <lastmod>2024-06-24T21:44:24+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -24,14 +21,17 @@
                 href="/en/"
                 />
   </url><url>
-    <loc>/en/posts/kernel-development-curriculum/</loc>
-    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+    <loc>/en/tags/japanese/</loc>
+    <lastmod>2024-06-24T21:44:24+07:00</lastmod>
   </url><url>
-    <loc>/en/tags/linux/</loc>
-    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+    <loc>/en/tags/jlpt/</loc>
+    <lastmod>2024-06-24T21:44:24+07:00</lastmod>
+  </url><url>
+    <loc>/en/posts/jlpt-cope-message/</loc>
+    <lastmod>2024-06-24T21:44:24+07:00</lastmod>
   </url><url>
     <loc>/en/posts/</loc>
-    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+    <lastmod>2024-06-24T21:44:24+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -44,15 +44,36 @@
                 />
   </url><url>
     <loc>/en/tags/</loc>
+    <lastmod>2024-06-24T21:44:24+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/cli/</loc>
+    <lastmod>2024-06-24T20:47:46+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/linux/</loc>
+    <lastmod>2024-06-24T20:47:46+07:00</lastmod>
+  </url><url>
+    <loc>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</loc>
+    <lastmod>2024-06-24T20:47:46+07:00</lastmod>
+  </url><url>
+    <loc>/en/posts/start-coding-small/</loc>
+    <lastmod>2024-06-24T20:23:33+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/programming/</loc>
+    <lastmod>2024-06-24T20:23:33+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/writing/</loc>
+    <lastmod>2024-06-24T20:23:33+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/c/</loc>
+    <lastmod>2024-06-19T23:10:43+07:00</lastmod>
+  </url><url>
+    <loc>/en/posts/kernel-development-curriculum/</loc>
     <lastmod>2024-06-19T23:10:43+07:00</lastmod>
   </url><url>
     <loc>/en/tags/devlog/</loc>
     <lastmod>2024-06-19T13:01:22+07:00</lastmod>
   </url><url>
     <loc>/en/posts/documenting-programming-journey-with-web-development/</loc>
-    <lastmod>2024-06-19T13:01:22+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/programming/</loc>
     <lastmod>2024-06-19T13:01:22+07:00</lastmod>
   </url><url>
     <loc>/en/tags/web/</loc>
@@ -207,20 +228,8 @@
     <loc>/en/tags/x86/</loc>
     <lastmod>2024-06-10T21:19:23+07:00</lastmod>
   </url><url>
-    <loc>/en/tags/cli/</loc>
-    <lastmod>2024-06-10T20:47:46+07:00</lastmod>
-  </url><url>
-    <loc>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</loc>
-    <lastmod>2024-06-10T20:47:46+07:00</lastmod>
-  </url><url>
     <loc>/en/tags/miscellaneous/</loc>
     <lastmod>2024-06-09T14:05:34+07:00</lastmod>
-  </url><url>
-    <loc>/en/posts/start-coding-small/</loc>
-    <lastmod>2024-06-06T20:23:33+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/writing/</loc>
-    <lastmod>2024-06-06T20:23:33+07:00</lastmod>
   </url><url>
     <loc>/en/categories/</loc>
   </url><url>

@@ -6,8 +6,16 @@
     <description>Recent content in Linux on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Jun 2024 23:10:43 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2024 20:47:46 +0700</lastBuildDate>
     <atom:link href="/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Hard Link and Soft Link in a Nutshell</title>
+      <link>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</link>
+      <pubDate>Mon, 24 Jun 2024 20:47:46 +0700</pubDate>
+      <guid>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</guid>
+      <description>Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what&amp;rsquo;s the difference between the two.
+What is inode? Your computer needs a way to &amp;rsquo;labelize&amp;rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that&amp;rsquo;s used to identify an inode.</description>
+    </item>
     <item>
       <title>Kernel Development Curriculum</title>
       <link>/en/posts/kernel-development-curriculum/</link>
@@ -49,14 +57,6 @@
       <pubDate>Tue, 11 Jun 2024 13:43:47 +0700</pubDate>
       <guid>/en/posts/system-programming-with-c-cpp-curriculum/</guid>
       <description>A curriculum to learn system programming using C/C&#43;&#43; from ChatGPT</description>
-    </item>
-    <item>
-      <title>Linux Hard Link and Soft Link in a Nutshell</title>
-      <link>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</link>
-      <pubDate>Mon, 10 Jun 2024 20:47:46 +0700</pubDate>
-      <guid>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</guid>
-      <description>Definition Before we talk about hardlink and softlink in linux, we must first know what is inode and filename, and what&amp;rsquo;s the difference between the two.
-What is inode? Your computer needs a way to &amp;rsquo;labelize&amp;rsquo; files in its filesystem. Remember, everything is a file in linux. One way to do this is to put a unique integer value to the file. This unique integer value is what we called the inode number, which is a number that&amp;rsquo;s used to identify an inode.</description>
     </item>
   </channel>
 </rss>
