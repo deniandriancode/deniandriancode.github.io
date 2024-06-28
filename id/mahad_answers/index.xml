@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Kunci Jawaban on faultint</title>
+    <title>faultint</title>
     <link>/id/mahad_answers/</link>
-    <description>Recent content in Kunci Jawaban on faultint</description>
+    <description>Recent content on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>id</language>
-    <lastBuildDate>Thu, 27 Jun 2024 19:36:38 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2024 20:36:57 +0700</lastBuildDate>
     <atom:link href="/id/mahad_answers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jawaban Bilangan Bulat Kelas 7 - Episode 2</title>
+      <link>/id/mahad_answers/76250123-4c60-4e12-9b7d-1b60c4eeac59/</link>
+      <pubDate>Fri, 28 Jun 2024 20:36:57 +0700</pubDate>
+      <guid>/id/mahad_answers/76250123-4c60-4e12-9b7d-1b60c4eeac59/</guid>
+      <description>Untuk melihat soal, klik di sini.</description>
+    </item>
     <item>
       <title>Jawaban Bilangan Bulat Kelas 7 - Episode 1</title>
       <link>/id/mahad_answers/aaad9b5e-608c-4c83-a3c1-e7ddd96abf4f/</link>
       <pubDate>Thu, 27 Jun 2024 19:36:38 +0700</pubDate>
       <guid>/id/mahad_answers/aaad9b5e-608c-4c83-a3c1-e7ddd96abf4f/</guid>
-      <description>D A C C D Untuk melihat soal, klik di sini.</description>
+      <description>D A C C D A B B C D Untuk melihat soal, klik di sini.</description>
     </item>
   </channel>
 </rss>

@@ -234,16 +234,6 @@
     <loc>/en/categories/</loc>
   </url><url>
     <loc>/en/search/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="/id/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/search/"
-                />
   </url><url>
     <loc>/en/series/</loc>
   </url>

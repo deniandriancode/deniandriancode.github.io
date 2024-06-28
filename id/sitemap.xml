@@ -2,21 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/id/posts/</loc>
-    <lastmod>2024-06-27T20:59:02+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="/id/posts/"
-                />
+    <loc>/id/mahad_answers/</loc>
+    <lastmod>2024-06-28T20:36:57+07:00</lastmod>
   </url><url>
     <loc>/id/</loc>
-    <lastmod>2024-06-27T20:59:02+07:00</lastmod>
+    <lastmod>2024-06-28T20:36:57+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,19 +18,19 @@
                 href="/id/"
                 />
   </url><url>
-    <loc>/id/posts/menulis-untuk-melazimkan-ilmu/</loc>
-    <lastmod>2024-06-27T20:59:02+07:00</lastmod>
+    <loc>/id/mahad_answers/76250123-4c60-4e12-9b7d-1b60c4eeac59/</loc>
+    <lastmod>2024-06-28T20:36:57+07:00</lastmod>
+  </url><url>
+    <loc>/id/mahad_exercises/</loc>
+    <lastmod>2024-06-28T20:34:26+07:00</lastmod>
+  </url><url>
+    <loc>/id/mahad_exercises/bilangan-bulat-eps-2/</loc>
+    <lastmod>2024-06-28T20:34:26+07:00</lastmod>
   </url><url>
     <loc>/id/mahad_exercises/bilangan-bulat-eps-1/</loc>
     <lastmod>2024-06-27T19:36:38+07:00</lastmod>
   </url><url>
     <loc>/id/mahad_answers/aaad9b5e-608c-4c83-a3c1-e7ddd96abf4f/</loc>
-    <lastmod>2024-06-27T19:36:38+07:00</lastmod>
-  </url><url>
-    <loc>/id/mahad_answers/</loc>
-    <lastmod>2024-06-27T19:36:38+07:00</lastmod>
-  </url><url>
-    <loc>/id/mahad_exercises/</loc>
     <lastmod>2024-06-27T19:36:38+07:00</lastmod>
   </url><url>
     <loc>/id/mahad/</loc>
@@ -71,22 +61,22 @@
                 href="/id/archives/"
                 />
   </url><url>
+    <loc>/id/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/id/posts/"
+                />
+  </url><url>
     <loc>/id/idcategories/</loc>
   </url><url>
     <loc>/id/idseries/</loc>
   </url><url>
     <loc>/id/idtags/</loc>
-  </url><url>
-    <loc>/id/search/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="/id/search/"
-                />
   </url>
 </urlset>
