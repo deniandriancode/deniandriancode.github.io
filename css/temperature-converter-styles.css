@@ -1,3 +1,7 @@
+:root {
+  font-size: 19px;
+}
+
 body {
-  background-color: #eee8aa;
+  font-family: "Alegreya";
 }
