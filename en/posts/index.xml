@@ -6,7 +6,7 @@
     <description>Recent content in Posts on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Jun 2024 21:44:24 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2024 15:07:47 +0700</lastBuildDate>
     <atom:link href="/en/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bookmarks Homepage</title>
@@ -17,11 +17,21 @@
 General Understanding base64 in C# Applied Mathematics for Programming - MIT How to write a good paragraph Searching code with grep by MDN Common UNIX utilities How to put information together - GCFGlobal Assembly x86 tutorial by Loyola Marymount University Roby&amp;rsquo;s PC Assembly (x86) Tutorial Japanese Vocabularies - Kanshudo Linux System Programming Introduction - Coursera 50 Dynamic Programming Problems Regular Expression Matching Discrete Mathematics by everythingcomputerscience.</description>
     </item>
     <item>
-      <title>JLPT Cope Messages</title>
-      <link>/en/posts/jlpt-cope-message/</link>
-      <pubDate>Mon, 24 Jun 2024 21:44:24 +0700</pubDate>
-      <guid>/en/posts/jlpt-cope-message/</guid>
-      <description>Messages I got from ChatGPT while talking about my Japanese learning journey.</description>
+      <title>Review of Pointer in C</title>
+      <link>/en/posts/pointer-of-c-review/</link>
+      <pubDate>Wed, 03 Jul 2024 15:07:47 +0700</pubDate>
+      <guid>/en/posts/pointer-of-c-review/</guid>
+      <description>In this short article we will review pointers in C programming language, if you are new to this kind of topic please read the tutorial of pointers for beginners first, try this tutorial for example.
+Defining Pointer There are several ways to define a pointer in C.
+int* p; int x = 5; p = &amp;amp;x; // p pointer to address x we can assign the address right away like so</description>
+    </item>
+    <item>
+      <title>Dynamic Array in C Simplified</title>
+      <link>/en/posts/dynamic-array-in-c-simplified/</link>
+      <pubDate>Tue, 02 Jul 2024 13:30:14 +0700</pubDate>
+      <guid>/en/posts/dynamic-array-in-c-simplified/</guid>
+      <description>Array data structure is really useful, it can used to to store value with same data types, we can access it really easy, updating the value of array is also a trivial thing to do. One of the most important use of array is that is it used to implement other more complex data structures such as linked list, binary tree and hash tables.
+But what is greater that array? Yup, dynamic array.</description>
     </item>
     <item>
       <title>Linux Hard Link and Soft Link in a Nutshell</title>
@@ -40,13 +50,6 @@ What is inode? Your computer needs a way to &amp;rsquo;labelize&amp;rsquo; files
 You can do programming wherever you are, you don&amp;rsquo;t have to sit in front of your computer since applying some logic don&amp;rsquo;t necessarily need a computer.</description>
     </item>
     <item>
-      <title>Kernel Development Curriculum</title>
-      <link>/en/posts/kernel-development-curriculum/</link>
-      <pubDate>Wed, 19 Jun 2024 23:10:43 +0700</pubDate>
-      <guid>/en/posts/kernel-development-curriculum/</guid>
-      <description>A curriculum about Kernel Development from ChatGPT</description>
-    </item>
-    <item>
       <title>Documenting Programming Journey with Web Development</title>
       <link>/en/posts/documenting-programming-journey-with-web-development/</link>
       <pubDate>Wed, 19 Jun 2024 13:01:22 +0700</pubDate>
@@ -61,6 +64,20 @@ You can do programming wherever you are, you don&amp;rsquo;t have to sit in fron
       <description>The following paragraphs are the summary of pointer and const in C++, I always forget about this topic so I decided to create a post about it.
 Regular Pointers Regular pointers are pointers the we usually use when working with pointers in C++.
 int main() { int x = 5; int* ptr = &amp;amp;x; // regular pointer to x x = 6; // *ptr would be 6 // we can change the value at the address being held *ptr = 1; // x and *ptr would be 1 int y = 88; ptr = &amp;amp;y; // changing the address that ptr is pointing at return 0; } Pointer to a const value I won&amp;rsquo;t explain what is it and the rest of the it since it is easier to explain it using code rather than using words.</description>
+    </item>
+    <item>
+      <title>Kernel Development Curriculum</title>
+      <link>/en/posts/kernel-development-curriculum/</link>
+      <pubDate>Fri, 14 Jun 2024 23:10:43 +0700</pubDate>
+      <guid>/en/posts/kernel-development-curriculum/</guid>
+      <description>A curriculum about Kernel Development from ChatGPT</description>
+    </item>
+    <item>
+      <title>JLPT Cope Messages</title>
+      <link>/en/posts/jlpt-cope-message/</link>
+      <pubDate>Fri, 14 Jun 2024 21:44:24 +0700</pubDate>
+      <guid>/en/posts/jlpt-cope-message/</guid>
+      <description>Messages I got from ChatGPT while talking about my Japanese learning journey.</description>
     </item>
     <item>
       <title>C&#43;&#43; for Data Structures and Algorithms Curriculum</title>
