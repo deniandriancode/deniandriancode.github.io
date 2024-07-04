@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/id/mahad_answers/</loc>
-    <lastmod>2024-07-01T00:02:39+07:00</lastmod>
+    <lastmod>2024-07-04T10:12:57+07:00</lastmod>
+  </url><url>
+    <loc>/id/mahad_answers/4dc5a165-3c81-41bb-871a-c1bdab95c12f/</loc>
+    <lastmod>2024-07-04T10:12:57+07:00</lastmod>
   </url><url>
     <loc>/id/</loc>
-    <lastmod>2024-07-01T00:02:39+07:00</lastmod>
+    <lastmod>2024-07-04T10:12:57+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,11 +21,14 @@
                 href="/id/"
                 />
   </url><url>
+    <loc>/id/mahad_exercises/</loc>
+    <lastmod>2024-07-04T10:11:57+07:00</lastmod>
+  </url><url>
+    <loc>/id/mahad_exercises/aljabar-eps-1/</loc>
+    <lastmod>2024-07-04T10:11:57+07:00</lastmod>
+  </url><url>
     <loc>/id/mahad_answers/7bd6978f-e453-4b37-b920-3a5bb07539fb/</loc>
     <lastmod>2024-07-01T00:02:39+07:00</lastmod>
-  </url><url>
-    <loc>/id/mahad_exercises/</loc>
-    <lastmod>2024-07-01T00:01:34+07:00</lastmod>
   </url><url>
     <loc>/id/mahad_exercises/pecahan-eps-1/</loc>
     <lastmod>2024-07-01T00:01:34+07:00</lastmod>
