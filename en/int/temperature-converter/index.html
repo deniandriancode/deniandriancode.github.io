@@ -7,8 +7,29 @@
     <title>Temperature Converter | faultint</title>
     <link href="/css/base-styles.css" rel="stylesheet">
     <link href="/css/temperature-converter-styles.css" rel="stylesheet"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body>
-    <h1>Coming soon...</h1>
+
+    <div x-data="{
+      inpTemp: '0',
+      }">
+      <input x-model="inpTemp" type="text" placeholder="input temperature" /><br/>
+      <button @click="">swap</button><br/>
+      <input x-model="inpTemp" type="text" placeholder="output temperature" disabled />
+    </div>
+
+    <div x-data="{ count: 0 }">
+      <button x-on:click="count++">Increment</button>
+
+      <p x-text="count"></p>
+    </div>
+
+    <div x-data="{ open: false }">
+      <button @click="open = !open">Toggle</button>
+
+      <div x-show="open" @click.outside="open = false">Something goes here...</div>
+    </div>
+
   </body>
 </html>
