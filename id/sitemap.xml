@@ -5,9 +5,6 @@
     <loc>/id/mahad_answers/</loc>
     <lastmod>2024-07-04T10:12:57+07:00</lastmod>
   </url><url>
-    <loc>/id/mahad_answers/4dc5a165-3c81-41bb-871a-c1bdab95c12f/</loc>
-    <lastmod>2024-07-04T10:12:57+07:00</lastmod>
-  </url><url>
     <loc>/id/</loc>
     <lastmod>2024-07-04T10:12:57+07:00</lastmod>
     <xhtml:link
@@ -20,6 +17,9 @@
                 hreflang="id"
                 href="/id/"
                 />
+  </url><url>
+    <loc>/id/mahad_answers/4dc5a165-3c81-41bb-871a-c1bdab95c12f/</loc>
+    <lastmod>2024-07-04T10:12:57+07:00</lastmod>
   </url><url>
     <loc>/id/mahad_exercises/</loc>
     <lastmod>2024-07-04T10:11:57+07:00</lastmod>
