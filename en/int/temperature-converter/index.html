@@ -11,6 +11,10 @@
   </head>
   <body>
 
+    <section>
+      <h2>A Trivial Temperature Converter App to Demonstrate the Use of Alpine JS in Hugo</h2>
+    </section>
+
     <div x-data="{
       inpTemp: '0',
       get outTemp() {
@@ -19,17 +23,9 @@
     }">
       <div>Celsius</div>
       <input x-model="inpTemp" type="text" /><br/>
-      
       <div>Fahrenheit</div>
       <input x-model="outTemp" type="text" disabled />
     </div>
-
-    <article>
-      <h2>Celsius and Fahrenheit definition</h2>
-      <p>The Celsius temperature range was originally defined by setting zero as the temperature at which water froze. Zero degrees C was later redefined as the temperature at which ice melts. The other point at which Celsius was set – 100 degrees Celsius – was defined as the boiling point of water.</p>
-      <p>Since its definition, the Celsius scale has been redefined to peg it to Kelvin. Zero degrees Celsius is now defined as 273.15K. As one degree Celsius is equal to one Kelvin, boiling point of water is equal to 273.15 + 100 = 373.15 Kelvin.</p>
-      <p>The Fahrenheit temperature range is based on setting the freezing point of water at 32 degrees, and boiling to 212 degrees. This means that boiling and freezing point are 180 degrees apart. Absolute zero is defined as -459.67°F.</p>
-    </article>
 
   </body>
 </html>

@@ -3,5 +3,11 @@
 }
 
 body {
-  font-family: "Source Serif 4";
+  font-family: "Alegreya";
+  margin: 2rem 1rem;
+}
+
+input,
+textarea {
+  font-size: 1rem;
 }
