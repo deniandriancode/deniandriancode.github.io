@@ -6,8 +6,15 @@
     <description>Recent content in Programming on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jul 2024 15:07:47 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jul 2024 18:59:44 +0700</lastBuildDate>
     <atom:link href="/en/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dummy File Watcher in C</title>
+      <link>/en/posts/dummy-file-watcher-c/</link>
+      <pubDate>Sat, 06 Jul 2024 18:59:44 +0700</pubDate>
+      <guid>/en/posts/dummy-file-watcher-c/</guid>
+      <description>Building it&amp;hellip;</description>
+    </item>
     <item>
       <title>Review of Pointer in C</title>
       <link>/en/posts/pointer-of-c-review/</link>

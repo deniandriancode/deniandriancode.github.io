@@ -2,11 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/id/mahad_answers/</loc>
-    <lastmod>2024-07-05T09:39:59+07:00</lastmod>
+    <loc>/id/posts/</loc>
+    <lastmod>2024-07-07T00:01:04+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/id/posts/"
+                />
   </url><url>
     <loc>/id/</loc>
-    <lastmod>2024-07-05T09:39:59+07:00</lastmod>
+    <lastmod>2024-07-07T00:01:04+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,11 +28,23 @@
                 href="/id/"
                 />
   </url><url>
-    <loc>/id/mahad_answers/7e350983-7d69-4597-829d-631ad3a6b488/</loc>
-    <lastmod>2024-07-05T09:39:59+07:00</lastmod>
+    <loc>/id/posts/menulis-untuk-melazimkan-ilmu/</loc>
+    <lastmod>2024-07-07T00:01:04+07:00</lastmod>
+  </url><url>
+    <loc>/id/mahad_answers/</loc>
+    <lastmod>2024-07-06T23:17:24+07:00</lastmod>
+  </url><url>
+    <loc>/id/mahad_answers/774616bd-7be7-4e28-a57a-771275b0ff6b/</loc>
+    <lastmod>2024-07-06T23:17:24+07:00</lastmod>
   </url><url>
     <loc>/id/mahad_exercises/</loc>
-    <lastmod>2024-07-05T09:39:08+07:00</lastmod>
+    <lastmod>2024-07-06T23:16:34+07:00</lastmod>
+  </url><url>
+    <loc>/id/mahad_exercises/ptlsv-eps-1/</loc>
+    <lastmod>2024-07-06T23:16:34+07:00</lastmod>
+  </url><url>
+    <loc>/id/mahad_answers/7e350983-7d69-4597-829d-631ad3a6b488/</loc>
+    <lastmod>2024-07-05T09:39:59+07:00</lastmod>
   </url><url>
     <loc>/id/mahad_exercises/plsv-eps-1/</loc>
     <lastmod>2024-07-05T09:39:08+07:00</lastmod>
@@ -77,18 +99,6 @@
                 rel="alternate"
                 hreflang="id"
                 href="/id/archives/"
-                />
-  </url><url>
-    <loc>/id/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="/id/posts/"
                 />
   </url><url>
     <loc>/id/idcategories/</loc>
