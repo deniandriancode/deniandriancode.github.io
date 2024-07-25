@@ -218,12 +218,5 @@
       <guid>/en/tags/x86/index.xml</guid>
       <description></description>
     </item>
-    <item>
-      <title>Miscellaneous</title>
-      <link>/en/tags/miscellaneous/index.xml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/miscellaneous/index.xml</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

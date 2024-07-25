@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/posts/bookmark-home/</loc>
-    <lastmod>2024-06-09T14:05:34+07:00</lastmod>
-  </url><url>
     <loc>/en/tags/c/</loc>
     <lastmod>2024-07-06T18:59:44+07:00</lastmod>
   </url><url>
@@ -237,7 +234,7 @@
     <loc>/en/tags/x86/</loc>
     <lastmod>2024-06-10T21:19:23+07:00</lastmod>
   </url><url>
-    <loc>/en/tags/miscellaneous/</loc>
+    <loc>/en/bookmark/</loc>
     <lastmod>2024-06-09T14:05:34+07:00</lastmod>
   </url><url>
     <loc>/en/categories/</loc>
