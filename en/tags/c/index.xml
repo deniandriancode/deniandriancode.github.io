@@ -13,7 +13,10 @@
       <link>/en/posts/dummy-file-watcher-c/</link>
       <pubDate>Sat, 06 Jul 2024 18:59:44 +0700</pubDate>
       <guid>/en/posts/dummy-file-watcher-c/</guid>
-      <description>Building it&amp;hellip;</description>
+      <description>In this article we will build a dummy file watcher using C programming language.
+We say dummy file watcher because to build a proper file watcher, we need to utilize os internal features which is a bit more complex.
+Instead, we will create an infinite loop that checks a given directory every 0.5 second and see if something has changed.
+#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;sys/types.h&amp;gt; #include &amp;lt;sys/stat.h&amp;gt; #include &amp;lt;dirent.h&amp;gt; #include &amp;lt;unistd.h&amp;gt; #include &amp;lt;string.</description>
     </item>
     <item>
       <title>Review of Pointer in C</title>

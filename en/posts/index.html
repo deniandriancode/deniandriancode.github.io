@@ -20,7 +20,6 @@
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="/en/posts/index.xml">
 <link rel="alternate" hreflang="en" href="/en/posts/">
-<link rel="alternate" hreflang="id" href="/id/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -135,12 +134,6 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-                <ul class="lang-switch"><li>|</li>
-                    <li>
-                        <a href="/id/" title="id"
-                            aria-label="id">id</a>
-                    </li>
-                </ul>
             </div>
         </div>
         <ul id="menu">
@@ -193,9 +186,12 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>Building it…</p>
+    <p>In this article we will build a dummy file watcher using C programming language.
+We say dummy file watcher because to build a proper file watcher, we need to utilize os internal features which is a bit more complex.
+Instead, we will create an infinite loop that checks a given directory every 0.5 second and see if something has changed.
+#include &lt;stdio.h&gt; #include &lt;sys/types.h&gt; #include &lt;sys/stat.h&gt; #include &lt;dirent.h&gt; #include &lt;unistd.h&gt; #include &lt;string....</p>
   </div>
-  <footer class="entry-footer"><span title='2024-07-06 18:59:44 +0700 WIB'>July 6, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;2 words&nbsp;·&nbsp;deniandriancode</footer>
+  <footer class="entry-footer"><span title='2024-07-06 18:59:44 +0700 WIB'>July 6, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;186 words&nbsp;·&nbsp;deniandriancode</footer>
   <a class="entry-link" aria-label="post link to Dummy File Watcher in C" href="/en/posts/dummy-file-watcher-c/"></a>
 </article>
 
