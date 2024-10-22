@@ -120,7 +120,7 @@ First thing we need to do is to create a function that tells if something has ch
   "keywords": [
     "c", "programming"
   ],
-  "articleBody": "In this article we will build a dummy file watcher using C programming language.\nWe say dummy file watcher because to build a proper file watcher, we need to utilize os internal features which is a bit more complex.\nInstead, we will create an infinite loop that checks a given directory every 0.5 second and see if something has changed.\nFirst thing we need to do is to create a function that tells if something has changed in a given directory.\nIn order to do that, we will check the st_ctime property from each file in a given directory. Which is a property that tells when was the last time the file has been modified.\nSo, we will first list all the st_ctime property from each file and then stored it in an array, after that, every 500ms we will check all the files' st_ctime property and see if something has changed.\nHere is the full code to do just that, it will print \"Something has changed, I can feel it...\\n\" whenever something changed in the given directory.\n#include #include #include #include #include #include int main(int argc, char* argv[]) { if (argc != 2) { fprintf(stderr, \"syntax: prog \\n\"); return 1; } DIR* dp; unsigned int fdl[64]; struct dirent* ep; struct stat st; unsigned int c = 0; int setchg = 0; dp = opendir(argv[1]); if (dp == NULL) { perror(\"opendir\"); return 1; } // store every file's st_ctime property into an array while (ep = readdir(dp)) { stat(ep-\u003ed_name, \u0026st); fdl[c++] = st.st_ctime; } // monitoring loop while (1) { c = 0; usleep(500000); dp = opendir(argv[1]); while ((ep = readdir(dp)) \u0026\u0026 c \u003c 64) { stat(ep-\u003ed_name, \u0026st); if (fdl[c] != st.st_ctime) { // if a file was modified or deleted or there is a new file setchg = 1; // the previous array and the current array will differ } fdl[c++] = st.st_ctime; } if (setchg) { printf(\"Something has changed, I can feel it...\\n\"); setchg = 0; } } closedir(dp); return 0; } The code is not perfect and needs a lot of improvement, for example it can only monitor up to 64 files. I will leave it to you to improve the code.\nStay safe.\n",
+  "articleBody": "In this article we will build a dummy file watcher using C programming language.\nWe say dummy file watcher because to build a proper file watcher, we need to utilize os internal features which is a bit more complex.\nInstead, we will create an infinite loop that checks a given directory every 0.5 second and see if something has changed.\nFirst thing we need to do is to create a function that tells if something has changed in a given directory.\nIn order to do that, we will check the st_ctime property from each file in a given directory. Which is a property that tells when was the last time the file has been modified.\nSo, we will first list all the st_ctime property from each file and then stored it in an array, after that, every 500ms we will check all the files' st_ctime property and see if something has changed.\nHere is the full code to do just that, it will print \"Something has changed, I can feel it...\\n\" whenever something changed in the given directory.\n#include #include #include #include #include #include int main(int argc, char* argv[]) { if (argc != 2) { fprintf(stderr, \"syntax: prog \\n\"); return 1; } DIR* dp; unsigned int fdl[64]; struct dirent* ep; struct stat st; unsigned int c = 0; int setchg = 0; dp = opendir(argv[1]); if (dp == NULL) { perror(\"opendir\"); return 1; } // store every file's st_ctime property into an array while (ep = readdir(dp)) { stat(ep-\u003ed_name, \u0026st); fdl[c++] = st.st_ctime; } // monitoring loop while (1) { c = 0; usleep(500000); dp = opendir(argv[1]); while ((ep = readdir(dp)) \u0026\u0026 c \u003c 64) { stat(ep-\u003ed_name, \u0026st); if (fdl[c] != st.st_ctime) { // if a file was modified or deleted or there is a new file setchg = 1; // the previous array and the current array will differ } fdl[c++] = st.st_ctime; } if (setchg) { printf(\"Something has changed, I can feel it...\\n\"); setchg = 0; } } closedir(dp); return 0; } The code is not perfect and needs a lot of improvement, for example it can only monitor up to 64 files. I will leave it to you to improve the code.\nStay safe!\n",
   "wordCount" : "373",
   "inLanguage": "en",
   "datePublished": "2024-07-06T18:59:44+07:00",
@@ -302,7 +302,7 @@ whenever something changed in the given directory.</p>
 </span></span></code></pre></div><p>The code is not perfect and needs a lot of improvement, for example
 it can only monitor up to 64 files. I will leave it to you to improve
 the code.</p>
-<p>Stay safe.</p>
+<p>Stay safe!</p>
 
 
   </div>
@@ -313,6 +313,11 @@ the code.</p>
       <li><a href="/en/tags/programming/">Programming</a></li>
     </ul>
 <nav class="paginav">
+  <a class="prev" href="/en/posts/promise-simplified-js/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Javascript Promise Simplified</span>
+  </a>
   <a class="next" href="/en/posts/pointer-of-c-review/">
     <span class="title">Next »</span>
     <br>

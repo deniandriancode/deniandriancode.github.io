@@ -6,8 +6,19 @@
     <description>Recent content on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jul 2024 18:59:44 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2024 20:08:35 +0700</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Javascript Promise Simplified</title>
+      <link>/en/posts/promise-simplified-js/</link>
+      <pubDate>Mon, 21 Oct 2024 20:08:35 +0700</pubDate>
+      <guid>/en/posts/promise-simplified-js/</guid>
+      <description>Promise has three different states: pending, resolve, and reject.
+When you first create a promise, it will be in pending state. This promise can be either &amp;ldquo;fulfilled&amp;rdquo; thus it will be resolved or it can be &amp;ldquo;rejected&amp;rdquo; thus it will be rejected.
+In other word, if promise resulted in success it resolve, else it reject.
+To create a promise in javascript is really simple.
+const myPromise = new Promise(function (resolve, reject) { // do something }); What you do inside the promise will decide whether it will resolve or reject.</description>
+    </item>
     <item>
       <title>Dummy File Watcher in C</title>
       <link>/en/posts/dummy-file-watcher-c/</link>
