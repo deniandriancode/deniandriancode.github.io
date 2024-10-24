@@ -6,8 +6,30 @@
     <description>Recent content on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Oct 2024 20:08:35 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2024 20:22:38 +0700</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Merge Pdf in Linux using pdfunite</title>
+      <link>/en/posts/merge-pdf-in-linux-pdfunite/</link>
+      <pubDate>Thu, 24 Oct 2024 20:22:38 +0700</pubDate>
+      <guid>/en/posts/merge-pdf-in-linux-pdfunite/</guid>
+      <description>Merging pdf files in Linux is really simple, you can use a command line called pdfunite.
+Open a terminal and type the following
+pdfunite --help in my system, it prints
+pdfunite version 24.06.0 Copyright 2005-2024 The Poppler Developers - http://poppler.freedesktop.org Copyright 1996-2011, 2022 Glyph &amp;amp; Cog, LLC Usage: pdfunite [options] &amp;lt;PDF-sourcefile-1&amp;gt;..&amp;lt;PDF-sourcefile-n&amp;gt; &amp;lt;PDF-destfile&amp;gt; -v : print copyright and version info -h : print usage information -help : print usage information --help : print usage information -?</description>
+    </item>
+    <item>
+      <title>Replicating Right Click Behavior using Vanilla Javascript</title>
+      <link>/en/posts/replicating-right-click-behavior-using-vanilla-javascript/</link>
+      <pubDate>Thu, 24 Oct 2024 19:36:18 +0700</pubDate>
+      <guid>/en/posts/replicating-right-click-behavior-using-vanilla-javascript/</guid>
+      <description>The idea is simple.
+First, disable the default event handler for right click in the browser.
+Second, create a custom event handler for right click event.
+Implementing the first idea, we can do something like the following.
+window.addEventListener(&amp;#34;contextmenu&amp;#34;, (event) =&amp;gt; { event.preventDefault(); }); from here we can easily add any custom code for event handler to our liking, here I will just log &amp;ldquo;Right Click detected!&amp;rdquo; into the console.
+window.addEventListener(&amp;#34;contextmenu&amp;#34;, (event) =&amp;gt; { event.</description>
+    </item>
     <item>
       <title>Javascript Promise Simplified</title>
       <link>/en/posts/promise-simplified-js/</link>

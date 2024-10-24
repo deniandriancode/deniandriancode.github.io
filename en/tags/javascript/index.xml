@@ -6,8 +6,20 @@
     <description>Recent content in Javascript on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Oct 2024 20:08:35 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2024 19:36:18 +0700</lastBuildDate>
     <atom:link href="/en/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Replicating Right Click Behavior using Vanilla Javascript</title>
+      <link>/en/posts/replicating-right-click-behavior-using-vanilla-javascript/</link>
+      <pubDate>Thu, 24 Oct 2024 19:36:18 +0700</pubDate>
+      <guid>/en/posts/replicating-right-click-behavior-using-vanilla-javascript/</guid>
+      <description>The idea is simple.
+First, disable the default event handler for right click in the browser.
+Second, create a custom event handler for right click event.
+Implementing the first idea, we can do something like the following.
+window.addEventListener(&amp;#34;contextmenu&amp;#34;, (event) =&amp;gt; { event.preventDefault(); }); from here we can easily add any custom code for event handler to our liking, here I will just log &amp;ldquo;Right Click detected!&amp;rdquo; into the console.
+window.addEventListener(&amp;#34;contextmenu&amp;#34;, (event) =&amp;gt; { event.</description>
+    </item>
     <item>
       <title>Javascript Promise Simplified</title>
       <link>/en/posts/promise-simplified-js/</link>

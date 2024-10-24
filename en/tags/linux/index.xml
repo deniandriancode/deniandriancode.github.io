@@ -6,8 +6,18 @@
     <description>Recent content in Linux on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Jun 2024 20:47:46 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2024 20:22:38 +0700</lastBuildDate>
     <atom:link href="/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Merge Pdf in Linux using pdfunite</title>
+      <link>/en/posts/merge-pdf-in-linux-pdfunite/</link>
+      <pubDate>Thu, 24 Oct 2024 20:22:38 +0700</pubDate>
+      <guid>/en/posts/merge-pdf-in-linux-pdfunite/</guid>
+      <description>Merging pdf files in Linux is really simple, you can use a command line called pdfunite.
+Open a terminal and type the following
+pdfunite --help in my system, it prints
+pdfunite version 24.06.0 Copyright 2005-2024 The Poppler Developers - http://poppler.freedesktop.org Copyright 1996-2011, 2022 Glyph &amp;amp; Cog, LLC Usage: pdfunite [options] &amp;lt;PDF-sourcefile-1&amp;gt;..&amp;lt;PDF-sourcefile-n&amp;gt; &amp;lt;PDF-destfile&amp;gt; -v : print copyright and version info -h : print usage information -help : print usage information --help : print usage information -?</description>
+    </item>
     <item>
       <title>Linux Hard Link and Soft Link in a Nutshell</title>
       <link>/en/posts/hard-link-soft-link-in-a-nutshell-linux/</link>
