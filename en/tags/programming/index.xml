@@ -6,8 +6,18 @@
     <description>Recent content in Programming on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Oct 2024 19:36:18 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2024 20:25:23 +0700</lastBuildDate>
     <atom:link href="/en/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generate Ranged Random Integer in Javascript</title>
+      <link>/en/posts/randint-js/</link>
+      <pubDate>Sat, 26 Oct 2024 20:25:23 +0700</pubDate>
+      <guid>/en/posts/randint-js/</guid>
+      <description>Here I will show you a simple way to generate a ranged random integer number in javascript. Since javascript doesn&amp;rsquo;t have built in function to generate ranged integer number, we will create one.
+function randInt(left, right) { return Math.floor(Math.random() * (right - left + 1)) + left; } And that&amp;rsquo;s it, this is just me passing by and dropping some code snippets.
+See you later.
+Stay safe!</description>
+    </item>
     <item>
       <title>Replicating Right Click Behavior using Vanilla Javascript</title>
       <link>/en/posts/replicating-right-click-behavior-using-vanilla-javascript/</link>

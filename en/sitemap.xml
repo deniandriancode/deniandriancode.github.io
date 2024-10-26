@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/tags/cli/</loc>
-    <lastmod>2024-10-24T20:22:38+07:00</lastmod>
-  </url><url>
     <loc>/en/</loc>
+    <lastmod>2024-10-26T20:25:23+07:00</lastmod>
+  </url><url>
+    <loc>/en/posts/randint-js/</loc>
+    <lastmod>2024-10-26T20:25:23+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/javascript/</loc>
+    <lastmod>2024-10-26T20:25:23+07:00</lastmod>
+  </url><url>
+    <loc>/en/posts/</loc>
+    <lastmod>2024-10-26T20:25:23+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/programming/</loc>
+    <lastmod>2024-10-26T20:25:23+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/</loc>
+    <lastmod>2024-10-26T20:25:23+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/cli/</loc>
     <lastmod>2024-10-24T20:22:38+07:00</lastmod>
   </url><url>
     <loc>/en/tags/linux/</loc>
@@ -13,18 +28,6 @@
   </url><url>
     <loc>/en/posts/merge-pdf-in-linux-pdfunite/</loc>
     <lastmod>2024-10-24T20:22:38+07:00</lastmod>
-  </url><url>
-    <loc>/en/posts/</loc>
-    <lastmod>2024-10-24T20:22:38+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/</loc>
-    <lastmod>2024-10-24T20:22:38+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/javascript/</loc>
-    <lastmod>2024-10-24T19:36:18+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/programming/</loc>
-    <lastmod>2024-10-24T19:36:18+07:00</lastmod>
   </url><url>
     <loc>/en/posts/replicating-right-click-behavior-using-vanilla-javascript/</loc>
     <lastmod>2024-10-24T19:36:18+07:00</lastmod>
