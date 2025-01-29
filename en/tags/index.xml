@@ -6,13 +6,13 @@
     <description>Recent content in Tags on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Oct 2024 20:25:23 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2025 17:29:28 +0700</lastBuildDate>
     <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Javascript</title>
-      <link>/en/tags/javascript/index.xml</link>
+      <title>Cybersecurity</title>
+      <link>/en/tags/cybersecurity/index.xml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/javascript/index.xml</guid>
+      <guid>/en/tags/cybersecurity/index.xml</guid>
       <description></description>
     </item>
     <item>
@@ -20,6 +20,13 @@
       <link>/en/tags/programming/index.xml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/tags/programming/index.xml</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>/en/tags/javascript/index.xml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/tags/javascript/index.xml</guid>
       <description></description>
     </item>
     <item>

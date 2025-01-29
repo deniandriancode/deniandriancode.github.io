@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/en/tags/cybersecurity/</loc>
+    <lastmod>2025-01-29T17:29:28+07:00</lastmod>
+  </url><url>
     <loc>/en/</loc>
-    <lastmod>2024-10-26T20:25:23+07:00</lastmod>
+    <lastmod>2025-01-29T17:29:28+07:00</lastmod>
+  </url><url>
+    <loc>/en/posts/bandit-overthewire-1/</loc>
+    <lastmod>2025-01-29T17:29:28+07:00</lastmod>
+  </url><url>
+    <loc>/en/posts/</loc>
+    <lastmod>2025-01-29T17:29:28+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/programming/</loc>
+    <lastmod>2025-01-29T17:29:28+07:00</lastmod>
+  </url><url>
+    <loc>/en/tags/</loc>
+    <lastmod>2025-01-29T17:29:28+07:00</lastmod>
   </url><url>
     <loc>/en/posts/randint-js/</loc>
     <lastmod>2024-10-26T20:25:23+07:00</lastmod>
   </url><url>
     <loc>/en/tags/javascript/</loc>
-    <lastmod>2024-10-26T20:25:23+07:00</lastmod>
-  </url><url>
-    <loc>/en/posts/</loc>
-    <lastmod>2024-10-26T20:25:23+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/programming/</loc>
-    <lastmod>2024-10-26T20:25:23+07:00</lastmod>
-  </url><url>
-    <loc>/en/tags/</loc>
     <lastmod>2024-10-26T20:25:23+07:00</lastmod>
   </url><url>
     <loc>/en/tags/cli/</loc>
