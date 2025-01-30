@@ -6,10 +6,20 @@
     <description>Recent content in Cybersecurity on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jan 2025 17:29:28 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2025 19:23:27 +0700</lastBuildDate>
     <atom:link href="/en/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>OverTheWire Bandit 00</title>
+      <title>OverTheWire Bandit 1</title>
+      <link>/en/posts/bandit-overthewire-1/</link>
+      <pubDate>Thu, 30 Jan 2025 19:23:27 +0700</pubDate>
+      <guid>/en/posts/bandit-overthewire-1/</guid>
+      <description>After getting the password from Level 0, I connected to Level 1.
+Here is the level goal by the way.
+The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
+This one is pretty straightforward.</description>
+    </item>
+    <item>
+      <title>OverTheWire Bandit 0</title>
       <link>/en/posts/bandit-overthewire-0/</link>
       <pubDate>Wed, 29 Jan 2025 17:29:28 +0700</pubDate>
       <guid>/en/posts/bandit-overthewire-0/</guid>
