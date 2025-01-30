@@ -6,13 +6,27 @@
     <description>Recent content on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jan 2025 17:29:28 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2025 19:05:43 +0700</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Kotoba Ten Episode 1</title>
+      <link>/en/posts/kotoba-ten-1/</link>
+      <pubDate>Thu, 30 Jan 2025 19:05:43 +0700</pubDate>
+      <guid>/en/posts/kotoba-ten-1/</guid>
+      <description>Learning a language is a long process, especially if there is no visible reward. A record of what I have learned is something visually rewarding for me, so here are 10 japanese vocabularies that I learned.
+1. 木陰 (こかげ) shade
+とても大きい木なので多くの人が木陰で涼んだりして、のんびり過ごしていました。
+→ Since the tree was very large, many people took shelter and rested in its shade.
+2. 排泄物 (はいせつぶつ) excrement, waste
+排泄物が活発に排出されるさま。
+→ Active excretion of waste.
+3. 脆い (もろい) fragile, brittle</description>
+    </item>
+    <item>
       <title>OverTheWire Bandit 00</title>
-      <link>/en/posts/bandit-overthewire-1/</link>
+      <link>/en/posts/bandit-overthewire-0/</link>
       <pubDate>Wed, 29 Jan 2025 17:29:28 +0700</pubDate>
-      <guid>/en/posts/bandit-overthewire-1/</guid>
+      <guid>/en/posts/bandit-overthewire-0/</guid>
       <description>I&amp;rsquo;m currently doing Bandit wargames in overthewire website, while doing so I want to share my journey here.
 First level, it&amp;rsquo;s Level 0. The goal is to connect to the game server using ssh. This one is pretty straightforward, the only obstacle here is knowing how to use ssh.
 Since I&amp;rsquo;m in a linux machine, I can easily read the manpage for ssh command.
