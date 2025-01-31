@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ctf on faultint</title>
+    <link>/en/tags/ctf/index.xml</link>
+    <description>Recent content in Ctf on faultint</description>
+    <generator>Hugo -- 0.126.3</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 31 Jan 2025 18:16:37 +0700</lastBuildDate>
+    <atom:link href="/en/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTF Hacker101 Flag 1 - A Little Something to Get You Started</title>
+      <link>/en/posts/ctf-hacker101-1/</link>
+      <pubDate>Fri, 31 Jan 2025 18:16:37 +0700</pubDate>
+      <guid>/en/posts/ctf-hacker101-1/</guid>
+      <description>Another challange I do while learning programming, this is episode 1 by the way.
+You can visit hacker101 if you want to play it too.
+I start the level and it redirected me to a website with white background and a paragraph which said:
+Welcome to level 0. Enjoy your stay. Nothing out of ordinary here. So, I inspect the page and look at the source code. Seems normal. Until I take a look at the &amp;lt;style&amp;gt; tag and saw the following lines:</description>
+    </item>
+  </channel>
+</rss>

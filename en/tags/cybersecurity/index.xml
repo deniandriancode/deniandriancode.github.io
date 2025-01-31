@@ -6,8 +6,29 @@
     <description>Recent content in Cybersecurity on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jan 2025 19:23:27 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2025 18:16:37 +0700</lastBuildDate>
     <atom:link href="/en/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTF Hacker101 Flag 1 - A Little Something to Get You Started</title>
+      <link>/en/posts/ctf-hacker101-1/</link>
+      <pubDate>Fri, 31 Jan 2025 18:16:37 +0700</pubDate>
+      <guid>/en/posts/ctf-hacker101-1/</guid>
+      <description>Another challange I do while learning programming, this is episode 1 by the way.
+You can visit hacker101 if you want to play it too.
+I start the level and it redirected me to a website with white background and a paragraph which said:
+Welcome to level 0. Enjoy your stay. Nothing out of ordinary here. So, I inspect the page and look at the source code. Seems normal. Until I take a look at the &amp;lt;style&amp;gt; tag and saw the following lines:</description>
+    </item>
+    <item>
+      <title>OverTheWire Bandit 2</title>
+      <link>/en/posts/bandit-overthewire-2/</link>
+      <pubDate>Fri, 31 Jan 2025 18:03:42 +0700</pubDate>
+      <guid>/en/posts/bandit-overthewire-2/</guid>
+      <description>Continue to Level 2. Here is the level goal:
+The password for the next level is stored in a file called - located in the home directory
+I connected to the game server using the password from the previous level. The file needed to get the password for the next level is located at the home directory, so I just typed in:
+cat ./- And the content get printed.
+If I typed cat - the content inside - file won&amp;rsquo;t be printed since typing cat - means the cat command will read from standard input.</description>
+    </item>
     <item>
       <title>OverTheWire Bandit 1</title>
       <link>/en/posts/bandit-overthewire-1/</link>
