@@ -6,8 +6,27 @@
     <description>Recent content on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jan 2025 18:16:37 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2025 18:42:44 +0700</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kotoba Record - Episode 2</title>
+      <link>/en/posts/kotoba-record-2/</link>
+      <pubDate>Fri, 31 Jan 2025 18:42:44 +0700</pubDate>
+      <guid>/en/posts/kotoba-record-2/</guid>
+      <description>1. 排除 (はいじょ) exclusion, removal
+警察は暴徒を大通りから排除した
+→ The police removed the rioters from the main street.
+2. 柔軟 (じゅうなん) flexible
+私は働き方を柔軟に支える社会の仕組みを作ります
+→ I will create a social system that flexibly supports various ways of working.
+3. 膠着 (こうちゃく) deadlock, stalemate
+交渉が膠着状態に陥り、進展がなくなった。
+→ The negotiations have reached a deadlock, and there is no progress.
+4. 清める (きよめる) to purify
+彼は心を清めるために神社を訪れた。
+→ He visited the shrine to purify his mind.
+5. 敢えて (あえて) purposely</description>
+    </item>
     <item>
       <title>CTF Hacker101 Flag 1 - A Little Something to Get You Started</title>
       <link>/en/posts/ctf-hacker101-1/</link>

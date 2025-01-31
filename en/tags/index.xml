@@ -6,8 +6,15 @@
     <description>Recent content in Tags on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jan 2025 18:16:37 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2025 18:42:44 +0700</lastBuildDate>
     <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Japanese</title>
+      <link>/en/tags/japanese/index.xml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/tags/japanese/index.xml</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ctf</title>
       <link>/en/tags/ctf/index.xml</link>
@@ -27,13 +34,6 @@
       <link>/en/tags/programming/index.xml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/tags/programming/index.xml</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Japanese</title>
-      <link>/en/tags/japanese/index.xml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/japanese/index.xml</guid>
       <description></description>
     </item>
     <item>
