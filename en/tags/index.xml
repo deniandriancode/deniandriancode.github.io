@@ -6,13 +6,34 @@
     <description>Recent content in Tags on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jan 2025 18:42:44 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 09:47:23 +0700</lastBuildDate>
     <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Japanese</title>
       <link>/en/tags/japanese/index.xml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/tags/japanese/index.xml</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bash</title>
+      <link>/en/tags/bash/index.xml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/tags/bash/index.xml</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cryptography</title>
+      <link>/en/tags/cryptography/index.xml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/tags/cryptography/index.xml</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>/en/tags/linux/index.xml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/tags/linux/index.xml</guid>
       <description></description>
     </item>
     <item>
@@ -48,13 +69,6 @@
       <link>/en/tags/cli/index.xml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/tags/cli/index.xml</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>/en/tags/linux/index.xml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/tags/linux/index.xml</guid>
       <description></description>
     </item>
     <item>

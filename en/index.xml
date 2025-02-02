@@ -6,8 +6,38 @@
     <description>Recent content on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jan 2025 18:42:44 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 09:47:23 +0700</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kotoba Record - Episode 3</title>
+      <link>/en/posts/kotoba-record-3/</link>
+      <pubDate>Sun, 02 Feb 2025 09:47:23 +0700</pubDate>
+      <guid>/en/posts/kotoba-record-3/</guid>
+      <description>1. 処分 (しょぶん) dispose
+新車を買う前に古い車を処分したい
+→ I want to dispose of my old car before buying a new one.
+2. 脅威 (きょうい) threat
+環境問題は人類にとって大きな脅威だ。
+→ Environmental issues are a major threat to humanity.
+3. 根拠 (こんきょ) basis / evidence
+彼の主張には科学的な根拠がない。
+→ His claim lacks scientific evidence.
+4. 努める (つとめる) strive / make an effort
+彼は毎日勉強に努めている。
+→ He strives to study every day.
+5. 漠然 (ばくぜん) vague / ambiguous
+彼の説明は漠然としていて理解しにくい。
+→ His explanation is vague and hard to understand.</description>
+    </item>
+    <item>
+      <title>Checksum Made Easy using Script</title>
+      <link>/en/posts/checksum-script/</link>
+      <pubDate>Sat, 01 Feb 2025 09:33:38 +0700</pubDate>
+      <guid>/en/posts/checksum-script/</guid>
+      <description>Script below is one of a simple way to checksum of a file and get the report immediately.
+#!/usr/bin/bash # syntax: ./checksum.sh &amp;lt;algorithm&amp;gt; &amp;lt;file&amp;gt; &amp;lt;cert&amp;gt; diff &amp;lt;(echo -n $($1 $2 | cut -d &amp;#39; &amp;#39; -f 1)) $3 -s Here I named the script checksum.sh but you can name it however you want.
+It&amp;rsquo;s pretty straightforward script, if you want to learn more about the command used in the script, you can copy the content and paste it in explainshell.</description>
+    </item>
     <item>
       <title>Kotoba Record - Episode 2</title>
       <link>/en/posts/kotoba-record-2/</link>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cryptography on faultint</title>
+    <link>/en/tags/cryptography/index.xml</link>
+    <description>Recent content in Cryptography on faultint</description>
+    <generator>Hugo -- 0.126.3</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Feb 2025 09:33:38 +0700</lastBuildDate>
+    <atom:link href="/en/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checksum Made Easy using Script</title>
+      <link>/en/posts/checksum-script/</link>
+      <pubDate>Sat, 01 Feb 2025 09:33:38 +0700</pubDate>
+      <guid>/en/posts/checksum-script/</guid>
+      <description>Script below is one of a simple way to checksum of a file and get the report immediately.
+#!/usr/bin/bash # syntax: ./checksum.sh &amp;lt;algorithm&amp;gt; &amp;lt;file&amp;gt; &amp;lt;cert&amp;gt; diff &amp;lt;(echo -n $($1 $2 | cut -d &amp;#39; &amp;#39; -f 1)) $3 -s Here I named the script checksum.sh but you can name it however you want.
+It&amp;rsquo;s pretty straightforward script, if you want to learn more about the command used in the script, you can copy the content and paste it in explainshell.</description>
+    </item>
+  </channel>
+</rss>

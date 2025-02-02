@@ -6,8 +6,17 @@
     <description>Recent content in Linux on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Oct 2024 20:22:38 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 09:33:38 +0700</lastBuildDate>
     <atom:link href="/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checksum Made Easy using Script</title>
+      <link>/en/posts/checksum-script/</link>
+      <pubDate>Sat, 01 Feb 2025 09:33:38 +0700</pubDate>
+      <guid>/en/posts/checksum-script/</guid>
+      <description>Script below is one of a simple way to checksum of a file and get the report immediately.
+#!/usr/bin/bash # syntax: ./checksum.sh &amp;lt;algorithm&amp;gt; &amp;lt;file&amp;gt; &amp;lt;cert&amp;gt; diff &amp;lt;(echo -n $($1 $2 | cut -d &amp;#39; &amp;#39; -f 1)) $3 -s Here I named the script checksum.sh but you can name it however you want.
+It&amp;rsquo;s pretty straightforward script, if you want to learn more about the command used in the script, you can copy the content and paste it in explainshell.</description>
+    </item>
     <item>
       <title>Merge Pdf in Linux using pdfunite</title>
       <link>/en/posts/merge-pdf-in-linux-pdfunite/</link>
