@@ -6,8 +6,19 @@
     <description>Recent content in Posts on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Feb 2025 09:47:23 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 19:04:51 +0700</lastBuildDate>
     <atom:link href="/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OverTheWire Bandit 3</title>
+      <link>/en/posts/bandit-overthewire-3/</link>
+      <pubDate>Tue, 04 Feb 2025 19:04:51 +0700</pubDate>
+      <guid>/en/posts/bandit-overthewire-3/</guid>
+      <description>This is level 2 -&amp;gt; level 3 in the bandit wargame from overthewire.org.
+Not so much different from the previous level, the password for the next level is stored inside a file.
+Let&amp;rsquo;s see the level goal:
+The password for the next level is stored in a file called spaces in this filename located in the home directory
+You notice that the filename contains space, so to view the content of the file we need to surround it with double quote or single quote, or we can escape the space character using backslash.</description>
+    </item>
     <item>
       <title>Kotoba Record - Episode 3</title>
       <link>/en/posts/kotoba-record-3/</link>
