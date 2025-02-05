@@ -6,8 +6,28 @@
     <description>Recent content in Posts on faultint</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Feb 2025 19:04:51 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 18:42:50 +0700</lastBuildDate>
     <atom:link href="/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OverTheWire Bandit 5</title>
+      <link>/en/posts/bandit-overthewire-5/</link>
+      <pubDate>Wed, 05 Feb 2025 18:42:50 +0700</pubDate>
+      <guid>/en/posts/bandit-overthewire-5/</guid>
+      <description>This is level 4 -&amp;gt; level 5 of bandit wargame from overthewire.
+Password stored in a file somewhere on the server. Here is the goal level.
+The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
+So logged in to the game server. Change directory to inhere. You will find a lot of files with similar names that has increasing number at the end of its name.</description>
+    </item>
+    <item>
+      <title>OverTheWire Bandit 4</title>
+      <link>/en/posts/bandit-overthewire-4/</link>
+      <pubDate>Wed, 05 Feb 2025 18:33:27 +0700</pubDate>
+      <guid>/en/posts/bandit-overthewire-4/</guid>
+      <description>Continuing with level 3 -&amp;gt; level 4. The password is stored in a file, somewhere on the server.
+Here is the level goal.
+The password for the next level is stored in a hidden file in the inhere directory.
+Hidden file is a file named beginning with dot. It won&amp;rsquo;t be displayed using ls command. You need to add -a flag to display hidden file. Naming directory beginning with dot will also makes it hidden.</description>
+    </item>
     <item>
       <title>OverTheWire Bandit 3</title>
       <link>/en/posts/bandit-overthewire-3/</link>
